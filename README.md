@@ -72,6 +72,7 @@ The repository history will tell the rest.
 ## Contact
 
 **Julian Vance Blackwood**
+
 Email: [julianvanceblackwood@gmail.com](mailto:julianvanceblackwood@gmail.com)
 GitHub: @julianvanceblackwood
 
