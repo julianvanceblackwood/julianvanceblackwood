@@ -1,113 +1,68 @@
 <div align="center">
 
-JULIAN VANCE BLACKWOOD
+# JULIAN VANCE BLACKWOOD
 
-SYSTEMS · INTELLIGENCE · SECURITY · AUTONOMY · AEROSPACE
+### HYBRID SYSTEMS ENGINEERING · INTELLIGENCE · SECURITY · AUTONOMY · AEROSPACE · FINANCE
 
-Engineering across abstraction layers — from low-level computation and secure infrastructure
-to intelligent systems, autonomous platforms, and real-world operations.
+**Engineering across abstraction layers — from low-level computation, secure infrastructure, and financial systems  
+to intelligence, autonomous platforms, and real-world operations.**
 
-Email · GitHub
+[Email](mailto:julianvanceblackwood@gmail.com) · [GitHub](https://github.com/julianvanceblackwood)
 
 </div>
 
-Mission
+## Operating Thesis
 
 I am building toward a hybrid engineering capability for problems that do not remain inside a single discipline.
 
-My direction sits at the intersection of systems engineering, cybersecurity, artificial intelligence, intelligence systems, autonomy, aerospace, embedded computing, cryptography, and quantitative systems.
+My direction sits at the intersection of:
 
-The technologies are not the identity.
-
-The capability is.
-
-I want to be able to enter an unfamiliar technical environment, establish what is actually happening, identify the governing constraint, descend to the layer where that constraint lives, and build a solution that remains defensible under inspection.
-
-A security problem may originate in hardware.
-
-A hardware limitation may surface as a software failure.
-
-A networking failure may become an intelligence failure.
-
-An intelligence failure may become a decision failure.
-
-An autonomous system may fail because sensing, timing, computation, communications, or human interaction was misunderstood.
-
-An analytical system may produce a convincing answer while remaining operationally useless because its evidence cannot be reconstructed.
-
-Those boundaries are where I want to work.
-
-What is true? What can invalidate it? What matters now? Which layer should carry the solution?
-
-That question connects the work.
-
-Engineering Surface
-
-SECURE SYSTEMS
-
-INTELLIGENT SYSTEMS
-
-PHYSICAL SYSTEMS
-
-Systems security
-
-Artificial intelligence
-
-Embedded computing
-
-Network engineering
-
-Intelligence systems
-
-Electronics
-
-Reverse engineering
-
-Information fusion
-
-Autonomous systems
-
-Malware analysis
-
-Decision systems
-
-Robotics
-
-Digital forensics
-
-Data engineering
-
-Aerospace systems
-
-Resilient infrastructure
-
-Human-machine systems
-
-Edge computing
-
-Cryptography
-
-Quantitative systems
-
-HW/SW integration
+| Systems | Intelligence | Physical | Quantitative |
+| --- | --- | --- | --- |
+| Systems engineering | Artificial intelligence | Embedded systems | Financial systems |
+| Cybersecurity | Intelligence systems | Electronics | Quantitative research |
+| Networking | Information fusion | Autonomous systems | Market structure |
+| Reverse engineering | Decision systems | Robotics | Cryptography |
+| Resilient infrastructure | Data engineering | Aerospace systems | Distributed protocols |
+| Distributed systems | Human-machine systems | Edge computing | Digital assets |
 
 These are not separate identities.
 
 They are interacting layers of larger systems.
 
-Breadth has one purpose:
+The objective is not to accumulate technologies. It is to understand **where the governing constraint lives**, descend to the right layer, and build a solution whose behavior remains explainable, measurable, and defensible.
 
-Know when the current layer is no longer enough.
+> **What is true? What can invalidate it? What matters now? Which layer should carry the solution?**
 
-The objective is not equal mastery of every technology. It is the ability to identify the critical layer, go deep where necessary, and integrate what the problem actually requires.
+That question connects the work.
 
-Systems Doctrine
+## Where I Operate
 
-Complexity must earn its place
+A security problem may originate in hardware.
+
+A hardware limitation may surface as a software failure.
+
+A network failure may become an intelligence failure.
+
+An intelligence failure may become a decision failure.
+
+A financial model may be statistically convincing while failing because the data was temporally invalid, the provenance was weak, or the market assumption was wrong.
+
+A protocol may expose a familiar interface while differing materially in authorization, accounting, failure, or settlement semantics.
+
+An autonomous system may fail because sensing, timing, communications, computation, or human interaction was misunderstood.
+
+An AI system may produce a plausible answer while remaining operationally useless because uncertainty, latency, evidence, or failure behavior cannot be defended.
+
+Those boundaries are where I want to work.
+
+## Systems Doctrine
+
+### Complexity must earn its place
 
 I do not treat architecture size as engineering maturity.
 
-Every service creates another operational boundary.
+Every service adds an operational boundary.
 
 Every dependency expands the trust surface.
 
@@ -117,102 +72,210 @@ Every distributed state introduces consistency questions.
 
 Every autonomous decision introduces verification questions.
 
+Every financial model introduces assumptions about regime, data, and causality.
+
 Every hardware specialization increases implementation and validation cost.
 
-Every model introduces another source of uncertainty.
+Complexity may be justified.
 
-Those costs may be justified.
+It should never be invisible.
 
-They should never be invisible.
+**The default is the simplest architecture that satisfies the actual requirement set.**
 
-The default is the simplest architecture that satisfies the real requirement set.
-
-Complexity enters only when evidence forces it to.
-
-Correctness survives optimization
+### Correctness survives optimization
 
 A faster system that no longer preserves the behavior that made the original system correct is not an optimization.
 
 It is a different system.
 
-State matters. Ordering matters. Authorization matters. Timing matters. Semantics matter. Trust boundaries matter. Failure behavior matters. Observable behavior matters.
+**State matters.  
+Ordering matters.  
+Authorization matters.  
+Timing matters.  
+Semantics matter.  
+Accounting matters.  
+Settlement matters.  
+Trust boundaries matter.  
+Failure behavior matters.**
 
 Optimization must preserve the contract.
 
-Measurement before specialization
+### Measurement before specialization
 
+```text
 REQUIREMENT
     ↓
 BASELINE
     ↓
 MEASUREMENT
     ↓
-CONSTRAINT
+IDENTIFIED CONSTRAINT
     ↓
 HYPOTHESIS
     ↓
 CONTROLLED CHANGE
     ↓
-VALIDATION
+BENCHMARK
+    ↓
+CORRECTNESS VALIDATION
+```
 
-Specialization is valuable when a measured constraint demands it.
+before:
+
+```text
+MORE SERVICES
+MORE THREADS
+MORE ABSTRACTIONS
+LOCK-FREE
+ZERO-COPY
+CUSTOM ALLOCATORS
+SIMD
+KERNEL TUNING
+FPGA
+ANOTHER MODEL
+```
+
+Specialization is valuable when evidence demands it.
 
 Otherwise it is complexity looking for a problem.
 
-Security is architectural
+### Security is architectural
 
-Security is not a final layer attached after the system has already been designed.
+Security is not something I want to bolt onto a finished system.
 
 A defensible security argument should answer:
 
-Who can act? What can they influence? What state is trusted? Where does trust change? What must remain protected? What can fail silently? How can failure propagate? What can be observed? What can be recovered?
+| Question | Why it matters |
+| --- | --- |
+| Who can act? | Defines the actor set |
+| What can they influence? | Defines reachable state |
+| What is trusted? | Defines assumptions |
+| Where does trust change? | Defines boundaries |
+| What must remain protected? | Defines assets |
+| What can fail silently? | Defines hidden risk |
+| How can failure propagate? | Defines blast radius |
+| What can be observed? | Defines detection |
+| What can be recovered? | Defines resilience |
 
 Without those answers, “secure” is mostly an adjective.
 
-Failure belongs in the contract
+### Failure belongs in the contract
 
 The happy path explains only part of a system.
 
-I also want to understand what fails, what survives, what becomes uncertain, what remains observable, what can propagate, what can remain silent, and whether recovery preserves correctness.
+I also want to know:
 
-A system is not fully understood until its failure behavior is understood.
+what fails,
 
-Evidence bounds the claim
+what survives,
+
+what becomes uncertain,
+
+what remains observable,
+
+what can propagate,
+
+what can remain silent,
+
+and whether recovery preserves correctness.
+
+**A system is not fully understood until its failure behavior is understood.**
+
+### Evidence bounds the claim
 
 Claims should remain proportional to evidence.
 
 If performance has not been measured, there is no performance result.
 
+If timing has not closed, there is no timing claim.
+
+If a research model has not survived chronological evaluation, there is no out-of-sample claim.
+
 If failure has not been exercised, there is no resilience result.
 
 If a security boundary has not been modeled and tested, its strength remains an assumption.
 
-If an analytical conclusion cannot be reconstructed from its evidence, confidence should be limited.
+If two protocols have not been compared semantically, interface similarity is not compatibility evidence.
 
-If an AI system cannot expose the assumptions behind a consequential output, that output deserves scrutiny.
+If an analytical conclusion cannot be reconstructed from its source observations, confidence should be limited.
 
-A narrow conclusion that survives inspection is more valuable than an ambitious claim that cannot be reproduced.
+**A narrow conclusion that survives inspection is more valuable than an ambitious one that cannot be reproduced.**
 
-Operational Engineering
+## Engineering Domains
+
+### Secure & Low-Level Systems
+
+`systems security` · `networking` · `operating systems` · `reverse engineering` · `malware analysis` · `digital forensics` · `secure architecture` · `resilient infrastructure`
+
+The objective is to understand both how systems fail and how systems are engineered not to.
+
+### Intelligence & AI Systems
+
+`artificial intelligence` · `machine learning` · `information fusion` · `analytical systems` · `data engineering` · `decision support` · `uncertainty` · `human-machine intelligence`
+
+The objective is not more output.
+
+It is better understanding, stronger evidence, and better decisions.
+
+### Autonomous & Mission Systems
+
+`autonomy` · `robotics` · `sensing` · `navigation` · `simulation` · `edge intelligence` · `mission software` · `distributed coordination`
+
+The objective is to build systems that remain understandable when they interact with changing physical environments.
+
+### Aerospace & Embedded Systems
+
+`flight software` · `avionics` · `telemetry` · `embedded computing` · `electronics` · `communications` · `hardware/software integration` · `edge systems`
+
+The objective is to work where software meets physics, timing, power, sensors, communications, and reliability.
+
+### Financial & Quantitative Systems
+
+`financial markets` · `market microstructure` · `financial data engineering` · `quantitative research` · `risk` · `execution systems` · `market-data systems` · `digital assets`
+
+Finance is a systems problem.
+
+Markets combine information, incentives, uncertainty, latency, infrastructure, human behavior, and risk.
+
+A defensible financial system must reason about **state, time, evidence, semantics, and failure**, not only returns.
+
+### Cryptographic & Protocol Systems
+
+`applied cryptography` · `distributed systems` · `blockchain infrastructure` · `asset protocols` · `digital identity` · `consensus` · `settlement semantics`
+
+Interfaces are not semantics.
+
+A protocol should be understood through what it permits, what it guarantees, what it records, and how it fails.
+
+### Behavioral & Decision Systems
+
+`decision-making` · `human factors` · `cognitive bias` · `incentives` · `adversarial behavior` · `structured analysis` · `human-machine interaction`
+
+Technical systems are designed, operated, attacked, trusted, and interpreted by people.
+
+Human behavior is therefore part of the architecture.
+
+## Operational Engineering
 
 Controlled environments hide important problems.
 
 I am interested in systems that must remain useful when assumptions begin to disappear:
 
-uncertainty · latency · degraded connectivity · resource constraints · hardware failure · incomplete information · human error · adversarial pressure
+`uncertainty` · `latency` · `degraded connectivity` · `limited resources` · `hardware failure` · `incomplete information` · `adversarial pressure` · `human error`
 
-The question is no longer simply:
+The question stops being:
 
-Does it work?
+> Does it work?
 
-It becomes:
+and becomes:
 
-What continues to work, under which conditions, what becomes uncertain, and what evidence remains when the system degrades?
+> **What continues to work, under which conditions, what becomes uncertain, and what evidence remains when the system degrades?**
 
-That requires architecture, observability, security, testing, failure analysis, deployment discipline, recovery, adaptation, and judgment.
+That requires architecture, observability, testing, security, failure analysis, deployment discipline, recovery, adaptation, and judgment.
 
-Operating Model
+## Operating Model
 
+```text
 OBSERVE
    ↓
 ORIENT
@@ -220,6 +283,8 @@ ORIENT
 DEFINE
    ↓
 DECOMPOSE
+   ↓
+MODEL STATE / TRUST / FAILURE
    ↓
 DESIGN
    ↓
@@ -236,10 +301,9 @@ MEASURE
 LEARN
    ↓
 ITERATE
+```
 
 Observe before acting.
-
-Establish the state of the environment.
 
 Separate evidence from assumption.
 
@@ -261,14 +325,16 @@ Learn from the difference between expected and observed behavior.
 
 Iterate.
 
-Execution without understanding produces noise.
-
-Understanding without execution produces theory.
+**Execution without understanding produces noise.  
+Understanding without execution produces theory.**
 
 The objective is disciplined convergence between both.
 
-Evidence Architecture
+## Evidence Architecture
 
+Every serious project should expose an inspectable chain of reasoning.
+
+```text
 PROBLEM
    ↓
 REQUIRED OUTCOME
@@ -294,177 +360,121 @@ RESULTS
 LIMITATIONS
    ↓
 NEXT ITERATION
+```
 
-A serious repository should expose what was built, why it exists, what assumptions it depends on, what can invalidate them, why the architecture was chosen, how correctness was tested, how the system fails, what was measured, what evidence supports the result, and what remains unknown.
+A repository should make it possible to determine:
 
-Expose the reasoning, not merely the implementation.
+| Evidence question | Expected answer |
+| --- | --- |
+| What was built? | Clear system boundary |
+| Why does it exist? | Explicit problem |
+| What does it assume? | Documented assumptions |
+| What can invalidate it? | Failure and threat model |
+| Why this architecture? | Traceable design rationale |
+| How is correctness tested? | Reproducible validation |
+| How does it fail? | Explicit failure behavior |
+| What was measured? | Quantitative evidence |
+| What supports the result? | Inspectable artifacts |
+| What remains unknown? | Bounded limitations |
 
-Research & Engineering Portfolio
+**Expose the reasoning, not merely the implementation.**
 
-The systems published here will explore different surfaces of one broader problem:
+## The Questions Underneath the Work
 
-How do we build systems whose outputs remain defensible when correctness, time, trust, uncertainty, failure, and performance all matter?
+| Dimension | Question |
+| --- | --- |
+| **STATE** | What does the system believe to be true? |
+| **TIME** | When did that state become true — and when was it knowable? |
+| **TRUST** | Which actors, inputs, dependencies, and boundaries can invalidate it? |
+| **SEMANTICS** | Does an operation mean what the surrounding system assumes it means? |
+| **UNCERTAINTY** | What is known, inferred, estimated, or still unknown? |
+| **FAILURE** | What survives when the happy path disappears? |
+| **PERFORMANCE** | Which measured constraint actually justifies specialization? |
+| **HUMAN** | Where does judgment enter the system? |
+| **EVIDENCE** | Can another engineer reproduce, inspect, challenge, or falsify the result? |
 
-SECURE SYSTEMS
+These questions connect cybersecurity, intelligence, autonomy, aerospace, finance, AI, protocols, hardware, and physical systems more deeply than a technology list ever could.
 
-Systems security · networking · reverse engineering · malware analysis · digital forensics · cryptography · resilient infrastructure
+## Technical Foundation
 
-INTELLIGENCE SYSTEMS
-
-AI · information fusion · analytical systems · provenance · uncertainty · decision support · human-machine intelligence
-
-AUTONOMOUS SYSTEMS
-
-Sensing · perception · navigation · robotics · simulation · distributed autonomy · edge intelligence
-
-AEROSPACE & EMBEDDED SYSTEMS
-
-Flight software · avionics · telemetry · electronics · embedded computing · communications · hardware/software integration
-
-QUANTITATIVE & DISTRIBUTED SYSTEMS
-
-Financial infrastructure · market systems · quantitative research · risk · distributed protocols · blockchain infrastructure · digital assets
-
-The repositories may look different.
-
-The questions underneath them should not.
-
-The Questions Underneath the Work
-
-STATE — What does the system believe to be true?
-
-TIME — When did that state become true — and when did the system know it?
-
-TRUST — Which actors, inputs, dependencies, and boundaries can invalidate it?
-
-SEMANTICS — Does an operation mean what the surrounding system assumes it means?
-
-UNCERTAINTY — What is known, inferred, estimated, or still unknown?
-
-FAILURE — What survives when the happy path disappears?
-
-PERFORMANCE — Which constraint actually justifies specialization?
-
-HUMAN — Where does judgment enter the system?
-
-EVIDENCE — Can another engineer reproduce, inspect, challenge, or falsify the result?
-
-Technical Foundation
-
-LAYER
-
-DIRECTION
-
-Software
-
-C/C++ · Python · systems programming · automation
-
-Systems
-
-Linux · operating systems · networking · concurrency
-
-Security
-
-threat modeling · reverse engineering · secure architecture · cryptography
-
-Intelligence
-
-data engineering · information fusion · AI/ML · analytical systems
-
-Autonomy
-
-sensing · navigation · robotics · simulation · edge intelligence
-
-Hardware
-
-electronics · embedded systems · microcontrollers · HW/SW integration
-
-Aerospace
-
-avionics · telemetry · flight systems · communications
-
-Quantitative
-
-financial systems · markets · risk · distributed assets
-
-Research
-
-measurement · provenance · falsification · uncertainty
+| Layer | Current direction |
+| --- | --- |
+| Languages | C/C++ · Python · TypeScript · Bash |
+| Systems | Linux · operating systems · networking · concurrency |
+| Performance | profiling · memory-aware design · deterministic systems |
+| Security | threat modeling · reverse engineering · secure architecture · applied cryptography |
+| Intelligence | data engineering · information fusion · AI/ML · analytical systems |
+| Autonomy | sensing · navigation · robotics · simulation · edge intelligence |
+| Hardware | electronics · embedded systems · microcontrollers · HW/SW co-design |
+| Aerospace | avionics · telemetry · flight systems · communications |
+| Finance | market structure · quantitative research · risk · financial data · execution systems |
+| Protocols | distributed systems · blockchain infrastructure · asset semantics · settlement |
+| Research | measurement · provenance · falsification · temporal validity · uncertainty |
+| Behavioral | decision-making · human factors · adversarial behavior |
 
 These are working foundations, not a claim of equal mastery across every domain.
 
-The purpose of the range is to understand where one discipline stops being sufficient and another becomes necessary.
+The purpose of breadth is to recognize when one discipline is no longer sufficient.
 
-Global Hybrid Direction
+## Global Hybrid Direction
 
 The systems I want to work on cross boundaries:
 
-software ↔ hardware
-
-cyber ↔ physical
-
-cloud ↔ edge
-
-AI ↔ human judgment
-
-intelligence ↔ decision
-
-analysis ↔ execution
-
-research ↔ deployment
-
-architecture ↔ operations
-
-remote ↔ field
+| Boundary | Direction |
+| --- | --- |
+| Software ↔ Hardware | Move between computation and physical implementation |
+| Cyber ↔ Physical | Connect digital trust to real-world behavior |
+| Cloud ↔ Edge | Engineer across distributed and constrained environments |
+| AI ↔ Human Judgment | Combine machine speed with accountable decisions |
+| Intelligence ↔ Decision | Turn information into defensible action |
+| Finance ↔ Infrastructure | Connect market logic to the systems carrying it |
+| Research ↔ Deployment | Move from hypothesis to real-world evidence |
+| Architecture ↔ Operations | Preserve design intent under real conditions |
+| Remote ↔ Field | Maintain standards across environments |
 
 The environment can change.
 
-The engineering standard should not.
+**The engineering standard should not.**
 
 The role follows the problem.
 
-Engineer when engineering is required.
+**Engineer** when engineering is required.  
+**Research** when the problem is unknown.  
+**Analyze** when information is incomplete.  
+**Build** when capability is missing.  
+**Integrate** when systems are fragmented.  
+**Operate** when systems meet reality.  
+**Learn** whenever understanding is insufficient.
 
-Research when the problem is unknown.
+## Standard
 
-Analyze when information is incomplete.
-
-Build when capability is missing.
-
-Integrate when systems are fragmented.
-
-Operate when systems meet reality.
-
-Learn whenever understanding is insufficient.
-
-Standard
-
-I do not optimize for titles without evidence, complexity without necessity, tools without fundamentals, AI output without verification, code without understanding, security as decoration, benchmarks without methodology, projects designed only to look impressive, or activity mistaken for progress.
+I do not optimize for titles without evidence, complexity without necessity, tools without fundamentals, AI output without verification, code without understanding, security as decoration, benchmarks without methodology, or projects designed only to look impressive.
 
 I optimize for:
 
-clarity · correctness · evidence · resilience · security · operational relevance · measurable outcomes · continuous improvement
+**clarity · correctness · evidence · resilience · security · performance where justified · operational relevance · measurable outcomes · continuous improvement**
 
 Repository size is not an engineering metric.
 
-Neither is the number of technologies involved.
+Neither is the number of frameworks involved.
 
-Direction
+## Direction
 
 I am building the ability to move across abstraction layers without losing sight of:
 
-what the system must accomplish,
+**what the system must accomplish,**
 
-what must remain true,
+**what must remain true,**
 
-what can invalidate it,
+**what can invalidate it,**
 
-what failure looks like,
+**what failure looks like,**
 
-which constraint actually matters,
+**which constraint actually matters,**
 
-and what evidence is required to trust the result.
+**and what evidence is required to trust the result.**
 
+```text
 FOUNDATION
     ↓
 DEPTH
@@ -476,6 +486,7 @@ DEPLOYMENT
 OPERATIONS
     ↓
 SCALE
+```
 
 Not the appearance of range.
 
@@ -483,9 +494,9 @@ Not manufactured authority.
 
 Not a collection of labels.
 
-Capability that survives inspection.
+**Capability that survives inspection.**
 
-End State
+## End State
 
 Enter the environment.
 
@@ -517,14 +528,14 @@ Repeat at a higher level.
 
 <div align="center">
 
-SEE THE WHOLE SYSTEM.
+## SEE THE WHOLE SYSTEM.
 
-FIND THE CRITICAL LAYER. BUILD WHAT IS MISSING.
+### FIND THE CRITICAL LAYER. BUILD WHAT IS MISSING.
 
-EVIDENCE OVER IDENTITY.
-CAPABILITY OVER APPEARANCE.
-OUTCOMES OVER ACTIVITY.
+**EVIDENCE OVER IDENTITY.**  
+**CAPABILITY OVER APPEARANCE.**  
+**OUTCOMES OVER ACTIVITY.**
 
-Email · GitHub
+[Email](mailto:julianvanceblackwood@gmail.com) · [GitHub](https://github.com/julianvanceblackwood)
 
 </div>
