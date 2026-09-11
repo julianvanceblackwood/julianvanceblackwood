@@ -4,7 +4,7 @@
 
 ### HYBRID SYSTEMS ENGINEERING · INTELLIGENCE · SECURITY · AUTONOMY · AEROSPACE · FINANCE
 
-**Engineering across abstraction layers — from low-level computation, secure infrastructure, and financial systems  
+**Engineering across abstraction layers from low-level computation, secure infrastructure, and financial systems  
 to intelligence, autonomous platforms, and real-world operations.**
 
 [Email](mailto:julianvanceblackwood@gmail.com) · [GitHub](https://github.com/julianvanceblackwood)
