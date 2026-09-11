@@ -1,718 +1,530 @@
-# Julian Vance Blackwood
+<div align="center">
 
-## Vision
+JULIAN VANCE BLACKWOOD
 
-Technology is most powerful when disciplines stop being treated as separate worlds.
+SYSTEMS · INTELLIGENCE · SECURITY · AUTONOMY · AEROSPACE
 
-Cybersecurity is not isolated from software engineering.
+Engineering across abstraction layers — from low-level computation and secure infrastructure
+to intelligent systems, autonomous platforms, and real-world operations.
 
-Artificial intelligence is not isolated from data, infrastructure, hardware, or human judgment.
+Email · GitHub
 
-Defense systems are not only hardware.
+</div>
 
-Intelligence systems are not only data.
+Mission
 
-Aerospace is not only flight.
+I am building toward a hybrid engineering capability for problems that do not remain inside a single discipline.
 
-Finance is not only markets.
+My direction sits at the intersection of systems engineering, cybersecurity, artificial intelligence, intelligence systems, autonomy, aerospace, embedded computing, cryptography, and quantitative systems.
 
-Cryptography is not only mathematics.
+The technologies are not the identity.
 
-At sufficient scale, all of them become systems problems.
+The capability is.
 
-The vision is to operate at that intersection.
+I want to be able to enter an unfamiliar technical environment, establish what is actually happening, identify the governing constraint, descend to the layer where that constraint lives, and build a solution that remains defensible under inspection.
 
-To understand complex environments across software, hardware, networks, intelligence, autonomy, finance, security, and human behavior — and to turn those layers into coherent systems capable of producing real-world outcomes.
+A security problem may originate in hardware.
 
-The objective is not technological specialization for its own sake.
+A hardware limitation may surface as a software failure.
 
-The objective is technological command.
+A networking failure may become an intelligence failure.
 
-Knowing what layer matters.
+An intelligence failure may become a decision failure.
 
-Knowing what must remain simple.
+An autonomous system may fail because sensing, timing, computation, communications, or human interaction was misunderstood.
 
-Knowing what requires precision.
+An analytical system may produce a convincing answer while remaining operationally useless because its evidence cannot be reconstructed.
 
-Knowing when performance matters more than abstraction.
+Those boundaries are where I want to work.
 
-Knowing when security must dominate convenience.
+What is true? What can invalidate it? What matters now? Which layer should carry the solution?
 
-Knowing when computation should move to the edge.
+That question connects the work.
 
-Knowing when intelligence should remain human.
+Engineering Surface
 
-Knowing when automation creates leverage — and when it creates fragility.
+SECURE SYSTEMS
 
-Technology is the instrument.
+INTELLIGENT SYSTEMS
 
-Architecture is the language.
+PHYSICAL SYSTEMS
 
-Capability is the result.
+Systems security
 
-## Systems Over Tools
+Artificial intelligence
 
-Programming languages are not identities.
+Embedded computing
 
-They are implementation choices.
+Network engineering
 
-A language is selected because the system requires something from it.
+Intelligence systems
 
-Low-level control.
+Electronics
 
-Memory safety.
+Reverse engineering
 
-Deterministic performance.
+Information fusion
 
-Rapid experimentation.
+Autonomous systems
 
-Data processing.
+Malware analysis
 
-Automation.
+Decision systems
 
-Concurrency.
+Robotics
 
-Hardware access.
+Digital forensics
 
-Network interaction.
+Data engineering
 
-Visualization.
+Aerospace systems
 
-Simulation.
+Resilient infrastructure
 
-Or orchestration.
+Human-machine systems
 
-The question is therefore never simply:
+Edge computing
 
-> What language should be used?
+Cryptography
 
-The real questions are:
+Quantitative systems
 
-What must this component accomplish?
+HW/SW integration
 
-Where will it operate?
+These are not separate identities.
 
-What can fail?
+They are interacting layers of larger systems.
 
-What is the latency budget?
+Breadth has one purpose:
 
-What are the security boundaries?
+Know when the current layer is no longer enough.
 
-What resources are available?
+The objective is not equal mastery of every technology. It is the ability to identify the critical layer, go deep where necessary, and integrate what the problem actually requires.
 
-What must be observable?
+Systems Doctrine
 
-What must remain deterministic?
+Complexity must earn its place
 
-What must integrate with existing infrastructure?
+I do not treat architecture size as engineering maturity.
 
-What must survive when assumptions collapse?
+Every service creates another operational boundary.
 
-Only then should implementation begin.
+Every dependency expands the trust surface.
 
-## Software as a Systems Instrument
+Every abstraction hides assumptions.
 
-Different programming paradigms serve different layers of the architecture.
+Every distributed state introduces consistency questions.
 
-High-level languages are valuable when speed of experimentation, automation, data transformation, intelligence pipelines, integration, and analytical velocity matter most.
+Every autonomous decision introduces verification questions.
 
-Lower-level languages become necessary when control over memory, performance, concurrency, hardware, networking, latency, or operating-system behavior becomes part of the problem itself.
+Every hardware specialization increases implementation and validation cost.
 
-Scripting becomes valuable when repetitive human actions should become reproducible system behavior.
+Every model introduces another source of uncertainty.
 
-Declarative systems become useful when infrastructure, deployment, configuration, and policy must be expressed consistently rather than manually reproduced.
+Those costs may be justified.
 
-Query languages become instruments for interrogating large datasets and converting stored information into operational understanding.
+They should never be invisible.
 
-Domain-specific languages become valuable when the abstraction closely represents the problem being solved.
+The default is the simplest architecture that satisfies the real requirement set.
 
-There is no loyalty to a language.
+Complexity enters only when evidence forces it to.
 
-There is loyalty to the architecture.
+Correctness survives optimization
 
-## From Code to Capability
+A faster system that no longer preserves the behavior that made the original system correct is not an optimization.
 
-Code alone is not the objective.
+It is a different system.
 
-A useful system requires more than functions that compile.
+State matters. Ordering matters. Authorization matters. Timing matters. Semantics matter. Trust boundaries matter. Failure behavior matters. Observable behavior matters.
 
-It requires understanding how components interact.
+Optimization must preserve the contract.
 
-How data enters.
+Measurement before specialization
 
-How state changes.
+REQUIREMENT
+    ↓
+BASELINE
+    ↓
+MEASUREMENT
+    ↓
+CONSTRAINT
+    ↓
+HYPOTHESIS
+    ↓
+CONTROLLED CHANGE
+    ↓
+VALIDATION
 
-How failures propagate.
+Specialization is valuable when a measured constraint demands it.
 
-How permissions are enforced.
+Otherwise it is complexity looking for a problem.
 
-How events are observed.
+Security is architectural
 
-How operators understand system state.
+Security is not a final layer attached after the system has already been designed.
 
-How decisions are made.
+A defensible security argument should answer:
 
-How components recover.
+Who can act? What can they influence? What state is trusted? Where does trust change? What must remain protected? What can fail silently? How can failure propagate? What can be observed? What can be recovered?
 
-How systems behave when connectivity disappears.
+Without those answers, “secure” is mostly an adjective.
 
-How assumptions change under real-world pressure.
+Failure belongs in the contract
 
-The transition is therefore:
+The happy path explains only part of a system.
 
-**Code → Component → Service → System → Capability**
+I also want to understand what fails, what survives, what becomes uncertain, what remains observable, what can propagate, what can remain silent, and whether recovery preserves correctness.
 
-Each layer introduces new problems.
+A system is not fully understood until its failure behavior is understood.
 
-A correct function can exist inside an unreliable service.
+Evidence bounds the claim
 
-A reliable service can exist inside a weak architecture.
+Claims should remain proportional to evidence.
 
-A strong architecture can still fail operationally.
+If performance has not been measured, there is no performance result.
 
-The system must be understood as a whole.
+If failure has not been exercised, there is no resilience result.
 
-## Hybrid Engineering
+If a security boundary has not been modeled and tested, its strength remains an assumption.
 
-The strongest systems increasingly exist between traditional disciplines.
+If an analytical conclusion cannot be reconstructed from its evidence, confidence should be limited.
 
-### Software × Hardware
+If an AI system cannot expose the assumptions behind a consequential output, that output deserves scrutiny.
 
-Software should understand the physical constraints beneath it.
+A narrow conclusion that survives inspection is more valuable than an ambitious claim that cannot be reproduced.
 
-Processors have limits.
+Operational Engineering
 
-Memory has behavior.
+Controlled environments hide important problems.
 
-Sensors contain noise.
+I am interested in systems that must remain useful when assumptions begin to disappear:
 
-Networks introduce latency.
+uncertainty · latency · degraded connectivity · resource constraints · hardware failure · incomplete information · human error · adversarial pressure
 
-Power is finite.
+The question is no longer simply:
 
-Storage fails.
+Does it work?
 
-Physical interfaces matter.
+It becomes:
 
-The abstraction eventually ends.
+What continues to work, under which conditions, what becomes uncertain, and what evidence remains when the system degrades?
 
-Understanding what exists beneath it creates better engineering decisions above it.
+That requires architecture, observability, security, testing, failure analysis, deployment discipline, recovery, adaptation, and judgment.
 
-### Cyber × Physical
+Operating Model
 
-Security does not end at the network boundary.
+OBSERVE
+   ↓
+ORIENT
+   ↓
+DEFINE
+   ↓
+DECOMPOSE
+   ↓
+DESIGN
+   ↓
+BUILD
+   ↓
+CHALLENGE
+   ↓
+TEST
+   ↓
+DEPLOY
+   ↓
+MEASURE
+   ↓
+LEARN
+   ↓
+ITERATE
 
-Physical systems are controlled by software.
+Observe before acting.
 
-Software depends on hardware.
-
-Hardware communicates through networks.
-
-Networks carry commands.
-
-Commands create physical consequences.
-
-This makes cyber-physical security an architectural problem rather than merely an application-security problem.
-
-### AI × Systems Engineering
-
-An intelligent model is only one component.
-
-Real capability also depends on:
-
-data acquisition,
-
-data quality,
-
-retrieval,
-
-infrastructure,
-
-latency,
-
-permissions,
-
-evaluation,
-
-observability,
-
-failure handling,
-
-human oversight,
-
-and deployment.
-
-A model can be impressive while the surrounding system remains useless.
-
-The architecture determines whether intelligence becomes operational capability.
-
-### Intelligence × Decision
-
-Collecting information is not intelligence.
-
-Intelligence emerges when fragmented information becomes structured understanding.
-
-That requires:
-
-collection,
-
-normalization,
-
-correlation,
-
-context,
-
-uncertainty management,
-
-pattern recognition,
-
-analysis,
-
-prioritization,
-
-and decision support.
-
-The ultimate purpose is not more data.
-
-It is better understanding under uncertainty.
-
-### Finance × Computation
-
-Modern financial systems are computational systems.
-
-Markets generate streams of information.
-
-Risk must be modeled.
-
-Large datasets must be processed.
-
-Strategies must be tested.
-
-Execution must be measured.
-
-Infrastructure must remain reliable.
-
-Models must distinguish historical coincidence from repeatable structure.
-
-The relevant challenge lies at the intersection of mathematics, software, distributed infrastructure, behavioral incentives, and uncertainty.
-
-### Aerospace × Autonomy
-
-Aerospace systems combine some of the most demanding engineering constraints simultaneously:
-
-limited resources,
-
-real-time computation,
-
-communications,
-
-navigation,
-
-sensor fusion,
-
-control,
-
-reliability,
-
-simulation,
-
-hardware,
-
-software,
-
-and extreme consequences for failure.
-
-This makes aerospace a systems discipline in its purest form.
-
-## Operational Architecture
-
-A system should not be designed only for the environment in which it was developed.
-
-It should be designed for the environment in which it must survive.
-
-That changes the architecture.
-
-Stable connectivity cannot always be assumed.
-
-Unlimited compute cannot always be assumed.
-
-Clean data cannot always be assumed.
-
-Correct human input cannot always be assumed.
-
-A trusted network cannot always be assumed.
-
-A functioning dependency cannot always be assumed.
-
-A cooperative environment cannot always be assumed.
-
-Operational architecture therefore begins with constraints.
-
-Then failure modes.
-
-Then trust boundaries.
-
-Then communication.
-
-Then observability.
-
-Then recovery.
-
-Only after those foundations are understood should complexity be introduced.
-
-## Global Hybrid Systems
-
-Modern systems rarely exist within a single machine, organization, geography, or technical discipline.
-
-Computation may begin in a sensor.
-
-Move through an embedded device.
-
-Reach an edge node.
-
-Cross a network.
-
-Enter distributed infrastructure.
-
-Become part of a data pipeline.
-
-Be interpreted by an intelligent system.
-
-Reach a human decision-maker.
-
-Return as an action.
-
-Every transition introduces assumptions.
-
-Every interface introduces risk.
-
-Every dependency introduces potential failure.
-
-The vision is to understand and engineer across those transitions.
-
-**Device ↔ Edge ↔ Network ↔ Cloud ↔ Intelligence ↔ Human ↔ Action**
-
-Not as isolated technologies.
-
-As one operating system of systems.
-
-## Security by Architecture
-
-Security should not be applied after construction.
-
-It should shape construction.
-
-Identity.
-
-Trust.
-
-Permissions.
-
-Isolation.
-
-Cryptography.
-
-Attack surface.
-
-Observability.
-
-Recovery.
-
-Supply chain.
-
-Data integrity.
-
-Hardware boundaries.
-
-Human access.
-
-These are architectural decisions.
-
-The goal is not simply to prevent compromise.
-
-It is to understand what happens when prevention fails.
-
-What can the attacker reach?
-
-What remains isolated?
-
-What can be detected?
-
-What evidence remains?
-
-What can recover?
-
-How far can failure propagate?
-
-Resilience begins where perfect prevention ends.
-
-## Intelligence Through Integration
-
-The greatest advantage rarely comes from a single algorithm.
-
-It comes from integration.
-
-A sensor alone has limited value.
-
-A database alone has limited value.
-
-A model alone has limited value.
-
-A dashboard alone has limited value.
-
-An analyst alone has limited reach.
-
-Connect them correctly and something different appears.
-
-A system capable of observing an environment.
-
-Building context.
-
-Detecting change.
-
-Prioritizing information.
-
-Supporting decisions.
-
-Learning from outcomes.
-
-And continuously improving the quality of understanding.
-
-That is the direction.
-
-Not isolated intelligence.
-
-Integrated intelligence.
-
-## Human-Machine Systems
-
-Human beings remain part of almost every important technical system.
-
-Their decisions matter.
-
-Their biases matter.
-
-Their incentives matter.
-
-Their reaction time matters.
-
-Their interpretation of information matters.
-
-Their trust in automation matters.
-
-Their ability to understand system state matters.
-
-Good engineering therefore does not ask only what machines can automate.
-
-It asks what machines should automate.
-
-What humans should decide.
-
-What information humans require.
-
-And how both should interact when conditions deteriorate.
-
-The strongest architecture is not always the one with the least human involvement.
-
-It is the one that places machine and human capability where each creates the greatest advantage.
-
-## Engineering Doctrine
-
-Understand the environment before designing the system.
-
-Understand the system before selecting the technology.
-
-Understand the technology before trusting the abstraction.
-
-Reduce unnecessary dependencies.
-
-Make critical behavior observable.
-
-Assume components will eventually fail.
-
-Design boundaries deliberately.
-
-Keep complexity proportional to the problem.
+Establish the state of the environment.
 
 Separate evidence from assumption.
 
-Measure before optimizing.
+Identify the governing constraint.
 
-Automate repeatable behavior.
+Find the critical layer.
 
-Preserve human judgment where uncertainty demands it.
+Reduce the problem until it becomes tractable.
 
-Secure the architecture, not only the application.
+Build the smallest defensible capability.
 
-Build systems that explain their state.
+Challenge its assumptions.
 
-Test the assumptions most likely to destroy the design.
+Test failure, not only success.
 
-## The Use of Technology
+Measure reality.
 
-A programming language is useful when it provides leverage.
+Learn from the difference between expected and observed behavior.
 
-Artificial intelligence is useful when it improves understanding or execution.
+Iterate.
 
-Automation is useful when it removes unnecessary repetition without removing necessary judgment.
+Execution without understanding produces noise.
 
-Cryptography is useful when it creates verifiable trust boundaries.
+Understanding without execution produces theory.
 
-Cloud infrastructure is useful when scale and distribution justify it.
+The objective is disciplined convergence between both.
 
-Edge computing is useful when latency, connectivity, sovereignty, or resilience demand local capability.
+Evidence Architecture
 
-Hardware acceleration is useful when computation itself becomes the constraint.
+PROBLEM
+   ↓
+REQUIRED OUTCOME
+   ↓
+CONSTRAINTS + ASSUMPTIONS
+   ↓
+STATE MODEL
+   ↓
+TRUST / THREAT / FAILURE MODEL
+   ↓
+ARCHITECTURE
+   ↓
+IMPLEMENTATION
+   ↓
+TESTING
+   ↓
+MEASUREMENT
+   ↓
+ADVERSARIAL ANALYSIS
+   ↓
+RESULTS
+   ↓
+LIMITATIONS
+   ↓
+NEXT ITERATION
 
-Distributed systems are useful when the problem genuinely requires distribution.
+A serious repository should expose what was built, why it exists, what assumptions it depends on, what can invalidate them, why the architecture was chosen, how correctness was tested, how the system fails, what was measured, what evidence supports the result, and what remains unknown.
 
-Complexity has no value by itself.
+Expose the reasoning, not merely the implementation.
 
-Every technology must justify its existence inside the architecture.
+Research & Engineering Portfolio
 
-## The Standard
+The systems published here will explore different surfaces of one broader problem:
 
-The standard is not whether something looks advanced.
+How do we build systems whose outputs remain defensible when correctness, time, trust, uncertainty, failure, and performance all matter?
 
-The standard is whether the architecture can be explained.
+SECURE SYSTEMS
 
-Whether assumptions are visible.
+Systems security · networking · reverse engineering · malware analysis · digital forensics · cryptography · resilient infrastructure
 
-Whether decisions can be defended.
+INTELLIGENCE SYSTEMS
 
-Whether performance can be measured.
+AI · information fusion · analytical systems · provenance · uncertainty · decision support · human-machine intelligence
 
-Whether failure can be analyzed.
+AUTONOMOUS SYSTEMS
 
-Whether security boundaries are understood.
+Sensing · perception · navigation · robotics · simulation · distributed autonomy · edge intelligence
 
-Whether another engineer can reproduce the result.
+AEROSPACE & EMBEDDED SYSTEMS
 
-Whether the system continues to provide value outside ideal conditions.
+Flight software · avionics · telemetry · electronics · embedded computing · communications · hardware/software integration
 
-Whether complexity produces capability rather than decoration.
+QUANTITATIVE & DISTRIBUTED SYSTEMS
 
-## Capability Over Identity
+Financial infrastructure · market systems · quantitative research · risk · distributed protocols · blockchain infrastructure · digital assets
 
-Titles are weak signals.
+The repositories may look different.
 
-Technology lists are weak signals.
+The questions underneath them should not.
 
-Certificates are incomplete signals.
+The Questions Underneath the Work
 
-The strongest evidence is what can be understood from the work itself.
+STATE — What does the system believe to be true?
 
-Architecture reveals judgment.
+TIME — When did that state become true — and when did the system know it?
 
-Code reveals implementation discipline.
+TRUST — Which actors, inputs, dependencies, and boundaries can invalidate it?
 
-Testing reveals assumptions.
+SEMANTICS — Does an operation mean what the surrounding system assumes it means?
 
-Documentation reveals understanding.
+UNCERTAINTY — What is known, inferred, estimated, or still unknown?
 
-Failure analysis reveals depth.
+FAILURE — What survives when the happy path disappears?
 
-Iteration reveals learning.
+PERFORMANCE — Which constraint actually justifies specialization?
 
-Integration reveals systems thinking.
+HUMAN — Where does judgment enter the system?
 
-Deployment reveals whether theory survives reality.
+EVIDENCE — Can another engineer reproduce, inspect, challenge, or falsify the result?
 
-The objective is therefore not to describe capability louder.
+Technical Foundation
 
-It is to make capability visible.
+LAYER
 
-## Direction
+DIRECTION
 
-The long-term direction is a global hybrid engineering model capable of crossing boundaries between:
+Software
 
-**Cybersecurity**
+C/C++ · Python · systems programming · automation
 
-**Artificial Intelligence**
+Systems
 
-**Intelligence Systems**
+Linux · operating systems · networking · concurrency
 
-**Defense Technology**
+Security
 
-**Autonomous Systems**
+threat modeling · reverse engineering · secure architecture · cryptography
 
-**Aerospace**
+Intelligence
 
-**Embedded & Edge Computing**
+data engineering · information fusion · AI/ML · analytical systems
 
-**Electronics**
+Autonomy
 
-**Distributed Infrastructure**
+sensing · navigation · robotics · simulation · edge intelligence
 
-**Cryptography**
+Hardware
 
-**Financial & Quantitative Systems**
+electronics · embedded systems · microcontrollers · HW/SW integration
 
-**Behavioral & Decision Science**
+Aerospace
 
-Not as twelve disconnected specialties.
+avionics · telemetry · flight systems · communications
 
-As layers of increasingly complex systems.
+Quantitative
 
-The highest-value problems rarely respect departmental boundaries.
+financial systems · markets · risk · distributed assets
 
-Neither should the architecture used to solve them.
+Research
 
-## End State
+measurement · provenance · falsification · uncertainty
 
-The ultimate capability is not knowing every tool.
+These are working foundations, not a claim of equal mastery across every domain.
 
-That is impossible and unnecessary.
+The purpose of the range is to understand where one discipline stops being sufficient and another becomes necessary.
 
-The capability is entering an unfamiliar complex system and being able to determine:
+Global Hybrid Direction
 
-what matters,
+The systems I want to work on cross boundaries:
 
-what does not,
+software ↔ hardware
 
-how the system is structured,
+cyber ↔ physical
 
-where trust exists,
+cloud ↔ edge
 
-where trust should not exist,
+AI ↔ human judgment
 
-where information originates,
+intelligence ↔ decision
 
-how it moves,
+analysis ↔ execution
 
-where decisions occur,
+research ↔ deployment
 
-where failure propagates,
+architecture ↔ operations
 
-where leverage exists,
+remote ↔ field
 
-and what must be changed.
+The environment can change.
 
-Then selecting the right combination of software, hardware, intelligence, security, automation, mathematics, infrastructure, and human judgment to produce the required result.
+The engineering standard should not.
 
-That is the vision.
+The role follows the problem.
 
-Not technology for technology's sake.
+Engineer when engineering is required.
 
-Not complexity for appearance.
+Research when the problem is unknown.
 
-Not specialization without context.
+Analyze when information is incomplete.
 
-**See the whole system.**
+Build when capability is missing.
 
-**Understand the critical layer.**
+Integrate when systems are fragmented.
 
-**Choose the right instrument.**
+Operate when systems meet reality.
 
-**Integrate the capability.**
+Learn whenever understanding is insufficient.
 
-**Measure the result.**
+Standard
 
-## Contact
+I do not optimize for titles without evidence, complexity without necessity, tools without fundamentals, AI output without verification, code without understanding, security as decoration, benchmarks without methodology, projects designed only to look impressive, or activity mistaken for progress.
 
-**Julian Vance Blackwood**
+I optimize for:
 
-Email: julianvanceblackwood@gmail.com  
-GitHub: @julianvanceblackwood
+clarity · correctness · evidence · resilience · security · operational relevance · measurable outcomes · continuous improvement
 
-Open to serious engineering, systems, research, and technology discussions.
+Repository size is not an engineering metric.
+
+Neither is the number of technologies involved.
+
+Direction
+
+I am building the ability to move across abstraction layers without losing sight of:
+
+what the system must accomplish,
+
+what must remain true,
+
+what can invalidate it,
+
+what failure looks like,
+
+which constraint actually matters,
+
+and what evidence is required to trust the result.
+
+FOUNDATION
+    ↓
+DEPTH
+    ↓
+INTEGRATION
+    ↓
+DEPLOYMENT
+    ↓
+OPERATIONS
+    ↓
+SCALE
+
+Not the appearance of range.
+
+Not manufactured authority.
+
+Not a collection of labels.
+
+Capability that survives inspection.
+
+End State
+
+Enter the environment.
+
+Establish reality.
+
+Map the system.
+
+Find the critical layer.
+
+Go deep.
+
+Learn what is missing.
+
+Build what does not exist.
+
+Integrate what does not communicate.
+
+Secure what must be trusted.
+
+Measure what matters.
+
+Operate under constraints.
+
+Learn from failure.
+
+Improve the system.
+
+Repeat at a higher level.
+
+<div align="center">
+
+SEE THE WHOLE SYSTEM.
+
+FIND THE CRITICAL LAYER. BUILD WHAT IS MISSING.
+
+EVIDENCE OVER IDENTITY.
+CAPABILITY OVER APPEARANCE.
+OUTCOMES OVER ACTIVITY.
+
+Email · GitHub
+
+</div>
