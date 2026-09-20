@@ -2,14 +2,14 @@
 
 # JULIAN VANCE BLACKWOOD
 
-### SYSTEMS ENGINEERING · INTELLIGENCE · SECURITY · AUTONOMY · AEROSPACE · FINANCE
+### SYSTEMS ENGINEERING · INTELLIGENCE · SECURITY · MISSION SYSTEMS · BEHAVIORAL SCIENCE · HIGH ASSURANCE
 
 <br>
 
 **ENGINEERING ACROSS DIGITAL, PHYSICAL, AND QUANTITATIVE SYSTEMS**
 
 From low-level computation and secure infrastructure
-to intelligence systems, autonomous platforms, aerospace, protocols, and financial infrastructure.
+to intelligence systems, mission-critical platforms, behavioral decision systems, aerospace, protocols, and financial infrastructure.
 
 <div align="center">
 
@@ -47,7 +47,7 @@ An intelligence failure may become a decision failure.
 
 A financial model may appear statistically sound while failing because the underlying data was temporally invalid.
 
-An autonomous platform may behave correctly in simulation while failing when sensing, timing, communications, or physical constraints change.
+A mission-critical platform may behave correctly in simulation while failing when sensing, timing, communications, human judgment, or physical constraints change.
 
 A protocol may expose a familiar interface while implementing different authorization, accounting, settlement, or failure semantics.
 
@@ -395,21 +395,30 @@ An intelligent system should make clear:
 
 ---
 
-## AUTONOMOUS & MISSION SYSTEMS
+## WEAPON, MISSION & SAFETY-CRITICAL SYSTEMS
 
-`Autonomy` · `Robotics` · `Sensing` · `Navigation` · `Simulation` · `Edge Intelligence` · `Mission Software` · `Distributed Coordination`
+`Mission Systems` · `Weapon-System Assurance` · `Human Control` · `Safety-Critical Software` · `Sensing` · `Verification & Validation` · `Mission Assurance` · `Systems-of-Systems`
 
-Autonomous systems compress uncertainty into action.
+Mission and weapon systems are not isolated devices.
 
-That makes:
+They are safety-, security-, and mission-critical socio-technical systems in which:
 
-**sensing · timing · state estimation · communications · computation · control · safety**
+**human judgment · sensing · timing · communications · computation · authorization · verification · failure containment**
 
-inseparable from the architecture.
+must remain explicit.
 
-The objective is not autonomy for its own sake.
+The engineering focus is not offensive optimization.
 
-It is **reliable behavior under changing conditions**.
+It is **assurance, predictability, human authority, resilience, cybersecurity, verification, validation, and controlled behavior under degraded conditions**.
+
+A credible system must be able to state:
+
+* what it is authorized to do
+* which human decisions remain authoritative
+* which assumptions define its operating envelope
+* how failure is detected and contained
+* which claims have been verified
+* where assurance ends
 
 ---
 
@@ -465,9 +474,9 @@ Understanding the protocol means understanding **what the system guarantees and 
 
 ---
 
-## HUMAN & DECISION SYSTEMS
+## BEHAVIORAL SCIENCE & HUMAN DECISION SYSTEMS
 
-`Decision-Making` · `Human Factors` · `Cognitive Bias` · `Incentives` · `Adversarial Behavior` · `Structured Analysis` · `Human-Machine Interaction`
+`Decision Science` · `Psychological Reactance` · `Persuasion` · `Cognitive Bias` · `Human Factors` · `Incentives` · `Social Influence` · `Deception Awareness` · `Adversarial Behavior` · `Human-Machine Interaction`
 
 People operate systems.
 
@@ -475,11 +484,69 @@ People attack systems.
 
 People interpret system outputs.
 
-People make decisions under incomplete information.
+People respond to incentives, framing, uncertainty, social pressure, perceived loss of control, and threats to freedom of choice.
 
-Therefore:
+Behavioral analysis therefore asks:
+
+* Which cognitive bias can distort the decision?
+* Which incentive changes behavior?
+* When does persuasion create resistance rather than compliance?
+* Which framing effect changes perceived risk?
+* Which human assumption can invalidate an otherwise correct technical model?
+* How can manipulation, deception, or coercive influence be recognized and resisted?
+
+The objective is not covert manipulation.
+
+It is **better prediction of human-system interaction, stronger decision architecture, influence awareness, and defensible reasoning under social and adversarial pressure**.
 
 > **Human behavior is part of the system architecture.**
+
+---
+
+## HIGH-ASSURANCE & FORMAL SYSTEMS
+
+`Formal Methods` · `Model Checking` · `Static Analysis` · `Requirements Engineering` · `Assurance Cases` · `Safety Cases` · `Verification` · `Validation` · `Fault Analysis`
+
+Some systems cannot rely on testing alone.
+
+When failure carries unacceptable cost, engineering must strengthen the chain from requirement to implementation to evidence.
+
+The central questions become:
+
+**What property must always hold?**
+
+**Can that property be stated unambiguously?**
+
+**Can the implementation be shown to preserve it?**
+
+**What evidence justifies the assurance claim?**
+
+High assurance is not confidence by declaration.
+
+It is **structured evidence that critical properties survive scrutiny**.
+
+---
+
+## TRUSTWORTHY AI, TEVV & COGNITIVE SECURITY
+
+`AI Assurance` · `Test, Evaluation, Verification & Validation` · `Calibration` · `Robustness` · `Interpretability` · `Human Oversight` · `Model Risk` · `Information Integrity` · `AI Security`
+
+AI systems introduce another boundary between evidence and action.
+
+A plausible output is not necessarily a reliable conclusion.
+
+A reliable model in one environment may fail under distribution shift, adversarial pressure, degraded data, or inappropriate human reliance.
+
+The engineering objective is therefore to establish:
+
+* what the model was evaluated to do
+* under which conditions the evaluation remains valid
+* how uncertainty and calibration are represented
+* what human oversight is required
+* how failure or manipulation can be detected
+* what evidence is required before AI output may influence a consequential decision
+
+> **AI capability without evaluation discipline is not assurance.**
 
 ---
 
@@ -493,6 +560,8 @@ The long-term direction is deliberately interdisciplinary.
 | **Cyber ↔ Physical**          | How does digital trust affect real-world behavior?    |
 | **Cloud ↔ Edge**              | What must remain functional when resources disappear? |
 | **AI ↔ Human**                | Where should automation stop and judgment begin?      |
+| **Human ↔ Influence**         | How do framing, incentives, bias, and reactance alter decisions? |
+| **Model ↔ Assurance**         | What evidence is required before automated output may influence action? |
 | **Intelligence ↔ Decision**   | How does evidence become accountable action?          |
 | **Finance ↔ Infrastructure**  | What systems actually carry the market?               |
 | **Research ↔ Deployment**     | Does the hypothesis survive contact with reality?     |
@@ -604,13 +673,15 @@ Another engineer should be able to determine:
 | **Performance**  | Profiling · Memory-Aware Design · Deterministic Systems                    |
 | **Security**     | Threat Modeling · Reverse Engineering · Secure Architecture · Cryptography |
 | **Intelligence** | Data Engineering · Information Fusion · AI/ML                              |
-| **Autonomy**     | Sensing · Navigation · Robotics · Simulation                               |
+| **Mission**      | Mission Systems · Safety-Critical Software · Human Control · V&V            |
 | **Hardware**     | Electronics · Embedded Systems · Microcontrollers · HW/SW Co-Design        |
 | **Aerospace**    | Avionics · Telemetry · Flight Systems · Communications                     |
 | **Finance**      | Market Structure · Quantitative Research · Risk · Execution                |
 | **Protocols**    | Distributed Systems · Blockchain Infrastructure · Settlement               |
 | **Research**     | Measurement · Provenance · Falsification · Temporal Validity               |
-| **Behavioral**   | Decision-Making · Human Factors · Adversarial Behavior                     |
+| **Behavioral**   | Decision Science · Psychological Reactance · Cognitive Bias · Human Factors |
+| **Assurance**    | Formal Methods · Model Checking · Verification · Safety / Assurance Cases    |
+| **AI Assurance** | TEVV · Calibration · Robustness · Interpretability · Human Oversight         |
 
 These represent working foundations and active directions.
 
