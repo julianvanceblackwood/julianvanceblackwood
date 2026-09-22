@@ -156,7 +156,7 @@ and:
 | DIMENSION       | QUESTION                                                             |
 | :-------------- | :------------------------------------------------------------------- |
 | **STATE**       | What does the system believe to be true?                             |
-| **TIME**        | When did that state become true — and when was it knowable?          |
+| **TIME**        | When did that state become true, and when was it knowable?          |
 | **TRUST**       | Which actors, inputs, dependencies, or boundaries can invalidate it? |
 | **SEMANTICS**   | Does an operation mean what the surrounding system assumes it means? |
 | **CAUSALITY**   | Is the observed relationship real, or merely correlated?             |
