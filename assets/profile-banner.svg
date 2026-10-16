@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="320" viewBox="0 0 1260 320" role="img" aria-labelledby="title desc">
+<title id="title">Julian Vance Blackwood</title>
+<desc id="desc">Independent research and systems engineering focused on capital, risk, trust and execution</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0B1119"/>
+    <stop offset="1" stop-color="#182633"/>
+  </linearGradient>
+  <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#B7CFD5" stop-opacity=".9"/>
+    <stop offset="1" stop-color="#6F8995" stop-opacity=".18"/>
+  </linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+    <path d="M36 0H0V36" fill="none" stroke="#C0D0D9" stroke-opacity=".045" stroke-width=".6"/>
+  </pattern>
+</defs>
+<rect width="1260" height="320" fill="url(#bg)"/>
+<rect width="1260" height="320" fill="url(#grid)"/>
+<rect x="0" y="0" width="7" height="320" fill="#9DB8BF"/>
+<path d="M56 42H680" stroke="url(#rule)" stroke-width="1"/>
+<text x="56" y="78" fill="#A8BCC7" font-family="Inter,Helvetica Neue,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="3">INDEPENDENT RESEARCH / SYSTEMS ENGINEERING</text>
+<text x="54" y="143" fill="#F5F7F8" font-family="Inter,Helvetica Neue,Arial,sans-serif" font-size="47" font-weight="650" letter-spacing="1.4">JULIAN VANCE</text>
+<text x="54" y="198" fill="#F5F7F8" font-family="Inter,Helvetica Neue,Arial,sans-serif" font-size="47" font-weight="650" letter-spacing="1.4">BLACKWOOD</text>
+<rect x="56" y="224" width="540" height="1.5" fill="url(#rule)"/>
+<text x="56" y="258" fill="#C6D7DD" font-family="Inter,Helvetica Neue,Arial,sans-serif" font-size="16" font-weight="500" letter-spacing="2">CAPITAL / RISK / TRUST / EXECUTION</text>
+<text x="56" y="293" fill="#8197A3" font-family="Inter,Helvetica Neue,Arial,sans-serif" font-size="11" letter-spacing="1.8">FINANCE  ·  CRYPTO  ·  BLOCKCHAIN  ·  SECURITY  ·  INTELLIGENCE</text>
+<g fill="none" stroke="#7F9AA7" stroke-width="1">
+  <circle cx="1005" cy="156" r="108" stroke-opacity=".13"/>
+  <circle cx="1005" cy="156" r="80" stroke-opacity=".25"/>
+  <circle cx="1005" cy="156" r="53" stroke-opacity=".38"/>
+  <path d="M792 156H1216M1005 28V284" stroke-opacity=".12"/>
+  <path d="M891 86L951 113L1005 79L1067 112L1127 86M888 223L951 196L1005 234L1067 197L1128 223" stroke-opacity=".45"/>
+  <path d="M951 113L951 196M1067 112L1067 197M1005 79V234" stroke-opacity=".4"/>
+  <path d="M951 113L1067 197M951 196L1067 112" stroke-opacity=".23"/>
+</g>
+<g fill="#B9CFD5">
+  <circle cx="1005" cy="79" r="4"/>
+  <circle cx="951" cy="113" r="4"/>
+  <circle cx="1067" cy="112" r="4"/>
+  <circle cx="1005" cy="156" r="6" fill="#E4EFF1"/>
+  <circle cx="951" cy="196" r="4"/>
+  <circle cx="1067" cy="197" r="4"/>
+  <circle cx="1005" cy="234" r="4"/>
+</g>
+<g fill="none" stroke="#B3C7D0" stroke-opacity=".45">
+  <path d="M802 48h28M802 48v28M1188 48h-28M1188 48v28M802 272h28M802 272v-28M1188 272h-28M1188 272v-28"/>
+</g>
+</svg>
