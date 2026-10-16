@@ -1,209 +1,278 @@
 <div align="center">
 
-# JULIAN VANCE BLACKWOOD
+<img src="assets/profile-banner.svg" alt="Julian Vance Blackwood | Capital, Risk, Trust and Execution" width="100%" />
 
-**FINANCE & QUANTITATIVE SYSTEMS / CRYPTO / BLOCKCHAIN / FPGA / CYBERSECURITY / INTELLIGENCE**
+<br>
 
-### CAPITAL. RISK. TRUST. EXECUTION.
+<a href="https://github.com/julianvanceblackwood">
+  <img src="https://img.shields.io/badge/GITHUB-PROFILE-20313D?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;labelColor=0B1119" alt="GitHub profile" height="32" />
+</a>
+&nbsp;
+<a href="mailto:julianvanceblackwood@gmail.com">
+  <img src="https://img.shields.io/badge/CONTACT-EMAIL-20313D?style=for-the-badge&amp;logo=gmail&amp;logoColor=white&amp;labelColor=0B1119" alt="Contact by email" height="32" />
+</a>
 
-Independent research and engineering across financial markets, digital assets, secure computation and decision systems.
+<br>
+<br>
 
-[GitHub](https://github.com/julianvanceblackwood) · [Contact](mailto:julianvanceblackwood@gmail.com)
+**QUANTITATIVE FINANCE  ·  CRYPTO  ·  BLOCKCHAIN  ·  FPGA  ·  CYBERSECURITY  ·  INTELLIGENCE**
+
+Independent research and engineering across financial infrastructure, secure computation and evidence-driven decision systems.
 
 </div>
 
 ---
 
-## Investment and Engineering Perspective
+## Perspective
 
-Capital is exposed to more than market risk.
+Markets, protocols and intelligence systems share a central difficulty. Decisions must be made while information is incomplete, conditions change and errors carry consequences.
 
-Data can arrive late. Models can embed assumptions that fail outside a backtest. Execution can diverge from intent. A settlement process can preserve technical validity while violating an accounting expectation. A security boundary can fail without producing a reliable alert.
+My work is oriented toward the boundaries where research becomes execution, data becomes exposure, software becomes trusted infrastructure and evidence becomes a decision.
 
-I approach these problems as connected engineering and risk questions.
+The priority is financial and quantitative engineering, followed by crypto and blockchain infrastructure. FPGA, cybersecurity and intelligence extend the same discipline into deterministic computation, protected state and operational judgment.
 
-My focus begins with financial and quantitative systems, extends through crypto and blockchain infrastructure, and reaches the hardware, security and intelligence layers that determine whether a system can be trusted.
-
-The objective is straightforward: **understand the risk, control the critical path and verify the outcome.**
+**Understand the system. Define the risk. Verify the result.**
 
 ## 01 / Finance and Quantitative Systems
 
-Quantitative research matters only if its assumptions survive the conditions under which capital is deployed.
+A financial model is only one component of a financial system. Market data, execution mechanics, accounting and risk determine whether a research conclusion survives contact with the market.
 
-I am interested in the complete path from market observation to portfolio decision, execution and reconciliation. The research model, underlying data and production mechanics belong to the same system.
+### Quantitative research and investment risk
 
-**Investment research and risk**
+- Market microstructure, liquidity, limit order books, spreads and transaction costs
+- Time-series analysis, statistical inference, numerical methods and optimization
+- Factor exposure, portfolio construction, concentration and risk decomposition
+- Scenario analysis, stress testing, drawdown controls and tail-risk assumptions
+- Chronological validation, point-in-time datasets, survivorship and look-ahead bias
+- Strategy capacity, market impact and the gap between theoretical and executable returns
 
-- Market microstructure, liquidity, order books and transaction costs
-- Statistical modeling, time-series research and numerical methods
-- Portfolio construction, exposure, concentration and scenario analysis
-- Risk budgets, drawdown controls, stress conditions and model limitations
-- Point-in-time data, survivorship bias, look-ahead bias and out-of-sample validation
+### Market and execution infrastructure
 
-**Financial infrastructure**
+- Market data pipelines, timestamps, sequence integrity and replayable event streams
+- Order state machines, acknowledgments, partial fills, cancellations and idempotency
+- Execution quality, latency distributions, deterministic processing and recovery
+- Position keeping, cash accounting, reconciliation and settlement controls
+- C++ performance, concurrency, cache behavior, profiling and memory-aware design
 
-- Market data ingestion, sequencing, timestamps and provenance
-- Event-driven research engines and deterministic simulation
-- Low-latency systems, C++ performance, memory layout and concurrency
-- Execution lifecycle, order state, fills, cancellations and idempotency
-- Position accounting, reconciliation, auditability and operational recovery
+The investment question and the engineering question are inseparable.
 
-Risk management is an architectural requirement, not a final dashboard.
+A backtest is not sufficient evidence of tradable performance. A risk limit is not a control if it fails during degraded operation. A low-latency result is not meaningful without its workload, measurement conditions and correctness checks.
 
-An attractive backtest is not evidence of executable returns. A fast trading engine has little value if it misorders events. A limit is not a control unless the system can enforce it under stress.
-
-The standard is a reproducible chain from **hypothesis to evidence, execution assumption, measured result and explicit limitation.**
+My standard is to connect **hypothesis, data, assumptions, implementation, risk and measurable outcomes** in a reproducible chain.
 
 ## 02 / Crypto and Digital Asset Infrastructure
 
-Digital assets bring market infrastructure, cryptography, custody and distributed settlement into a single operational environment.
+Digital asset infrastructure places capital, cryptographic authority and distributed transaction processing on the same critical path.
 
-The relevant question is not only whether a transaction is valid. It is whether the transaction was intended, authorized, correctly accounted for and finalized under the stated assumptions.
+The important question is not simply whether a transaction is cryptographically valid. It is whether the action was intended, authorized, properly accounted for and settled under the system's declared assumptions.
 
-**Market and operational systems**
+### Digital asset markets and operations
 
-- Exchange connectivity, liquidity, pricing and execution quality
-- Digital asset risk, exposure and transaction monitoring
-- Wallet state, custody architecture and signing authorization
-- On-chain and off-chain reconciliation, confirmations and recovery
-- Transaction provenance, replay resistance and operational controls
+- Exchange connectivity, liquidity, market structure and execution quality
+- Digital asset pricing, exposure, market data quality and risk controls
+- Custody architectures, wallet state and transaction authorization policies
+- On-chain and off-chain accounting, confirmations, reconciliation and recovery
+- Transaction monitoring, operational controls and key-person risk boundaries
 
-**Cryptographic systems**
+### Cryptographic foundations
 
-- Hashing, signatures, message authentication and canonical encoding
-- Key management, entropy, domain separation and key lifecycle
-- Protocol serialization, validation rules and secure state transitions
-- Hardware-backed authorization, protected key boundaries and integrity evidence
+- Hash functions, digital signatures, message authentication and authenticated data
+- Key generation and lifecycle, entropy, domain separation and replay prevention
+- Canonical serialization, byte-level validation and protocol-specific semantics
+- Secure signing flows, protected state and hardware-backed trust boundaries
+- Reference vectors, differential tests and independent verification
 
-I study cryptographic mechanisms from first principles. Research implementations are tested against specifications and known vectors. Experimental cryptography is not treated as production assurance without appropriate independent review.
+Cryptographic primitives do not automatically secure the systems built around them. Ownership of keys, correctness of transaction intent and recovery from partial failure belong in the design.
+
+Research implementations help establish understanding. Production cryptographic dependencies require established validation and independent security review.
 
 ## 03 / Blockchain and Protocol Engineering
 
-A protocol is a set of promises about state, authority, ordering and failure.
+I approach blockchain infrastructure as distributed state machines with rules for authorization, ordering, finality and economic settlement.
 
-My interests include:
+- Consensus assumptions, validator behavior, forks and chain reorganizations
+- Transaction propagation, mempools, ordering and resource accounting
+- Execution semantics, access control, contract invariants and upgrade boundaries
+- Cross-chain messaging, bridges, oracles and inherited trust dependencies
+- Finality, replay resistance, settlement and deterministic state reconstruction
+- Binary encoding, protocol parsers, consensus-critical validation and failure cases
 
-- Consensus assumptions, finality, reorganizations and transaction ordering
-- State machines, validators, mempools and peer-to-peer behavior
-- Smart contract invariants, access control and upgrade boundaries
-- Bridges, oracles, cross-chain messages and inherited trust
-- Settlement semantics, fee accounting, replay protection and recovery
-- Binary formats, parsers, consensus-critical serialization and compatibility
+A transaction broadcast is not settlement. A compatible API is not a guarantee of equivalent behavior. A valid signature is not proof that every relevant business constraint was satisfied.
 
-A submitted transaction is not the same as settled value. A matching interface is not proof of matching behavior.
-
-The engineering task is to make protocol guarantees precise enough to test, challenge and independently reproduce.
+The priority is to understand what the protocol actually guarantees, then make those guarantees independently testable.
 
 ## 04 / FPGA and Embedded Security Infrastructure
 
-I treat FPGA and embedded engineering as implementation layers for financial, blockchain and cybersecurity systems rather than separate industry identities.
+FPGA and embedded engineering are part of the foundation, not an unrelated industry vertical. I connect hardware design to concrete requirements in finance, blockchain and cybersecurity.
 
-**Finance**
-Deterministic data paths, packet processing, timestamping, bounded-latency computation and hardware-software performance boundaries.
+| Application | Hardware and embedded focus |
+| :--- | :--- |
+| **Financial systems** | Deterministic packet processing, precise timestamping, bounded-latency pipelines and feed handling |
+| **Crypto systems** | Bit-accurate hashing, cryptographic datapaths, signing interfaces and protected state |
+| **Blockchain infrastructure** | Transaction verification primitives, integrity checks and hardware-software trust boundaries |
+| **Cybersecurity** | Hardware-rooted evidence, tamper-evident sequencing, isolation and secure interfaces |
 
-**Crypto and blockchain**
-Cryptographic datapaths, hashing, state-machine acceleration, transaction integrity and protected authorization interfaces.
+The underlying discipline includes RTL, state machines, fixed-width arithmetic, clock and reset behavior, FPGA verification, embedded interfaces and hardware-software co-design.
 
-**Cybersecurity**
-Hardware-rooted trust, isolated state, tamper-evident records, secure interfaces and resilient evidence capture.
+Simulation, timing closure and physical security are different claims. Each needs its own evidence.
 
-The foundations are RTL, digital logic, finite-state machines, bit-accurate arithmetic, embedded interfaces and verification. Timing closure, simulation coverage and hardware assumptions must be demonstrated, not implied.
-
-Hardware is justified when it improves a defined property of the system: latency, determinism, isolation, integrity or reliability.
+Hardware should be introduced only where it solves an identified problem in **latency, determinism, isolation, integrity or reliability**.
 
 ## 05 / Cybersecurity and Secure Systems
 
-Security starts with an explicit model of what must be protected and who can change it.
+Security is a property of the complete system. It cannot be reduced to a scanner, a perimeter or a library selection.
 
-- Linux, operating systems, networking and low-level software
-- Threat modeling, authorization, identity and trust boundaries
+My focus is defensive engineering and authorized security research.
+
+- Linux, operating systems, networking, memory and systems programming
+- Threat modeling, authorization, identity and effective privilege
 - Reverse engineering, program analysis and controlled malware research
-- Defensive vulnerability research within authorized scope
-- Cryptographic integration, memory safety and protocol security
+- Vulnerability research, secure code review and protocol analysis
+- Cryptographic integration, supply-chain boundaries and reproducible builds
 - Digital forensics, incident reconstruction and telemetry integrity
-- Resilience, containment and recovery under adversarial conditions
+- Containment, operational resilience, recovery and defensible security evidence
 
-I focus on the relationship between observed behavior and justified conclusions. A clean alert stream does not prove a clean system. Missing telemetry does not prove an event never occurred.
+I am especially interested in the difference between an event, an observation and a justified conclusion.
 
-The aim is to build security properties that remain inspectable when an assumption fails.
+A missing alert is not proof of safety. A valid credential does not establish legitimate intent. A recovered service is not necessarily a recovered security state.
+
+Security design must state who can act, what they can influence, which trust assumptions are required and how those assumptions are tested.
 
 ## 06 / Intelligence and Decision Systems
 
-Intelligence is a discipline of evidence, not volume.
+Intelligence engineering connects heterogeneous information to decisions under uncertainty. Its quality depends on source reliability, analytical discipline, traceability and the ability to distinguish knowledge from inference.
 
-A useful analytical system preserves source provenance, distinguishes facts from inferences, records contradictions and exposes what remains unknown.
+The objective is not to accumulate more information. It is to improve the quality of the conclusion without hiding the limitations of the evidence.
 
-- Evidence fusion, temporal reconstruction and entity relationships
-- Cyber threat intelligence and adversarial behavior
-- Structured analysis, competing hypotheses and uncertainty
-- Decision support, operational consequence and human oversight
-- Defense-oriented analytics and systems operating under contested information
-- AI and machine learning as reviewable analytical components
+### Financial and digital asset intelligence
 
-Automated analysis should strengthen human judgment, not conceal uncertainty behind a confident output.
+- Capital flow analysis, transaction patterns and market-structure signals
+- On-chain activity and off-chain context with explicit attribution limits
+- Counterparty relationships, concentration, exposure and anomaly analysis
+- Time-aware entity graphs and reconstruction of significant financial events
+- Source validation and defensible indicators for investment and risk decisions
 
-## Engineering Ownership
+### Cyber threat intelligence
 
-I prefer to understand and, where justified, implement the critical machinery myself.
+- Threat behavior, infrastructure relationships and observable tradecraft
+- Indicators assessed in context rather than treated as standalone proof
+- Campaign reconstruction, temporal analysis and competing explanations
+- Confidence, collection gaps, false positives and source corroboration
+- Decision support for defensive prioritization, containment and recovery
 
-That includes focused libraries, protocols, parsers, state machines, numerical kernels, test harnesses and verification tools. Building from the ground up creates value when it improves auditability, independence, correctness or measured performance.
+### Defense and operational intelligence
 
-A library is an engineering product. It needs a stable contract, explicit ownership, a considered error model and evidence that its behavior matches its specification.
+- Multi-source information fusion and sensor reliability
+- Contested information, degraded collection and communication constraints
+- Entity and relationship analysis across changing operational states
+- Consequence modeling, scenario analysis and mission risk
+- Human-reviewed decisions with explicit authorization and accountability
 
-My development standard is consistent:
+### Intelligence architecture
 
-1. Define the problem and the required invariants
-2. Establish the time, state, trust and failure models
-3. Build the smallest useful reference implementation
-4. Test boundaries, adverse inputs and recovery paths
-5. Measure against a documented baseline
-6. Refine without changing the contract
-7. Preserve the evidence needed for independent review
+A responsible analytical system must preserve the distinction between the original record and any interpretation derived from it.
 
-Custom code is not automatically better than an established dependency. I evaluate that tradeoff explicitly, especially for production cryptography and other security-critical components.
+```text
+SOURCE MATERIAL
+      |
+PROVENANCE AND INTEGRITY
+      |
+TIME AND OBSERVABILITY
+      |
+ENTITY AND RELATIONSHIP MODEL
+      |
+COMPETING HYPOTHESES
+      |
+UNCERTAINTY AND CONSEQUENCE
+      |
+HUMAN-REVIEWABLE DECISION
+```
+
+A record can be authentic and inaccurate. Multiple sources can agree because they share a dependency. An unobserved event is not necessarily an event that did not happen.
+
+AI and machine learning can support classification, correlation and hypothesis testing. They should not silently promote an inference into a fact or replace the authority of a responsible human decision-maker.
+
+## Engineering From First Principles
+
+I value technical independence at the level of algorithms, protocols, libraries and hardware interfaces.
+
+Where control, auditability or measured constraints justify the effort, I prefer to implement critical components directly. This includes parsers, codecs, state machines, numerical routines, protocol libraries, reference models, test harnesses and verification utilities.
+
+The objective is not to reinvent everything. It is to understand the abstraction well enough to decide responsibly whether to use it or build it.
+
+### Library standard
+
+- Define invariants and public interfaces before the implementation
+- Make ownership, lifetimes, error behavior and compatibility explicit
+- Separate policy from mechanism and preserve narrow module boundaries
+- Test boundaries, malformed inputs, concurrency and failure recovery
+- Apply reference vectors, property testing, fuzzing and differential testing where appropriate
+- Measure representative workloads and preserve reproducible benchmarks
+- Document portability, dependencies, limitations and versioning
+
+A dependency earns trust through evidence, not popularity. A custom implementation earns trust through validation, not authorship.
 
 ## Technical Foundation
 
-| Layer | Engineering scope |
+| Layer | Focus |
 | :--- | :--- |
-| Computation | C, C++, Python, Linux, concurrency, memory, performance |
-| Quantitative | Probability, statistics, numerical methods, optimization |
-| Market infrastructure | Market data, execution, risk, accounting, reconciliation |
-| Crypto and protocols | Cryptography, blockchain, distributed state, settlement |
-| Hardware | FPGA, RTL, embedded interfaces, verification, HW/SW design |
-| Security | Reverse engineering, trust boundaries, defensive research |
-| Intelligence | Provenance, evidence fusion, uncertainty, decision support |
+| **Quantitative** | Probability, statistics, optimization, numerical analysis, research validation |
+| **Financial** | Market data, execution, risk, accounting, settlement, low-latency systems |
+| **Cryptographic** | Applied cryptography, secure serialization, signing, key and trust boundaries |
+| **Distributed** | Protocols, consensus, state machines, ordering, resilience |
+| **Low-level** | C, C++, Python, Linux, memory, concurrency, performance |
+| **Hardware** | Electronics, embedded computing, FPGA, RTL, verification |
+| **Security** | Reverse engineering, threat modeling, forensics, defensive research |
+| **Intelligence** | Source provenance, information fusion, uncertainty, decision analysis |
 
-These are areas of focused work and study, not a claim of equal mastery across every discipline.
+These are areas of research and engineering development, not a claim of equal mastery across every discipline.
 
-## Operating Standard
+## Operating Method
 
-**Capital discipline.** Understand downside exposure and the cost of failure before optimizing for an ideal outcome.
+```text
+ESTABLISH THE PROBLEM
+         |
+DEFINE THE INVARIANTS
+         |
+MODEL STATE, TIME AND TRUST
+         |
+BUILD THE REFERENCE
+         |
+TEST FAILURE CONDITIONS
+         |
+MEASURE THE CONSTRAINTS
+         |
+VERIFY THE RESULT
+         |
+DOCUMENT THE LIMITATIONS
+```
 
-**Engineering discipline.** Correctness precedes performance. An optimization that breaks accounting, ordering or authorization is a defect.
+I prefer small, consequential engineering changes over activity for its own sake.
 
-**Research discipline.** Separate hypotheses from results. Publish measurements with assumptions, methods and limitations.
-
-**Security discipline.** Define what is trusted, who has authority and how failure propagates.
-
-**Ownership discipline.** Prefer fewer meaningful changes, well-designed interfaces, reproducible tests and maintainable implementations.
+Correctness precedes optimization. Risk assumptions are documented before results are interpreted. Security boundaries are explicit. Research findings should be reproducible by another engineer. Work is evaluated by what can be demonstrated, not by the number of tools used or commits produced.
 
 ## Direction
 
-I am building depth across financial systems, digital asset infrastructure, secure protocols, hardware assurance and intelligence engineering.
+My long-term focus is the intersection of financial computation, digital asset infrastructure, protocol engineering, hardware assurance, cybersecurity and intelligence.
 
-The connection is not the number of disciplines. It is the ability to follow a critical assumption across them, from a mathematical model to an instruction, transaction, circuit or decision.
+The unifying concern is how capital, information and authority move through complex systems, and what must remain true when those systems are stressed.
 
-I value technical independence, restrained claims and work that can withstand examination.
+The work should be understandable from the quantitative model to the instruction, transaction, circuit and decision.
 
 <div align="center">
 
 ---
 
-**UNDERSTAND THE SYSTEM. DEFINE THE RISK. VERIFY THE RESULT.**
+### UNDERSTAND THE SYSTEM. DEFINE THE RISK. VERIFY THE RESULT.
 
-[Private Contact](mailto:julianvanceblackwood@gmail.com)
+<a href="https://github.com/julianvanceblackwood">
+  <img src="https://img.shields.io/badge/GITHUB-PROFILE-20313D?style=flat-square&amp;logo=github&amp;logoColor=white&amp;labelColor=0B1119" alt="GitHub" />
+</a>
+&nbsp;
+<a href="mailto:julianvanceblackwood@gmail.com">
+  <img src="https://img.shields.io/badge/CONTACT-EMAIL-20313D?style=flat-square&amp;logo=gmail&amp;logoColor=white&amp;labelColor=0B1119" alt="Email" />
+</a>
 
-<sub>JULIAN VANCE BLACKWOOD / SYSTEMS ENGINEERING / INDEPENDENT RESEARCH</sub>
+<sub>JULIAN VANCE BLACKWOOD / INDEPENDENT RESEARCH AND SYSTEMS ENGINEERING</sub>
 
 </div>
