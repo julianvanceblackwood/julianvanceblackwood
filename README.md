@@ -1,16 +1,17 @@
 <div align="center">
 
-<img src="assets/profile-banner.svg" alt="Julian Vance Blackwood. Capital, risk, trust and execution." width="100%" />
+<img src="assets/identity-hero.svg" width="100%" alt="Julian Vance Blackwood: independent research in quantitative finance, crypto, blockchain, FPGA, cybersecurity and intelligence" />
 
 <br>
 
-<a href="https://github.com/julianvanceblackwood"><img src="assets/github-link.svg" alt="GitHub engineering research" width="210" /></a>&nbsp;&nbsp;<a href="mailto:julianvanceblackwood@gmail.com"><img src="assets/contact-link.svg" alt="Email contact" width="210" /></a>
+<a href="https://github.com/julianvanceblackwood"><img src="assets/github-action.svg" width="255" alt="Open GitHub source and research" /></a>&nbsp;&nbsp;<a href="mailto:julianvanceblackwood@gmail.com"><img src="assets/contact-action.svg" width="255" alt="Email for direct inquiries" /></a>
 
 <br>
+<br>
 
-**QUANTITATIVE FINANCE  ·  CRYPTO  ·  BLOCKCHAIN  ·  FPGA  ·  CYBERSECURITY  ·  INTELLIGENCE**
+**FINANCE & QUANTITATIVE SYSTEMS  ·  CRYPTO  ·  BLOCKCHAIN  ·  FPGA  ·  CYBERSECURITY  ·  INTELLIGENCE**
 
-Independent research and engineering across financial infrastructure, secure computation and evidence-driven decision systems.
+Independent research in capital, secure infrastructure, and evidence-based decisions.
 
 </div>
 
@@ -28,7 +29,7 @@ The priority is financial and quantitative engineering, followed by crypto and b
 
 <div align="center">
 
-<img src="assets/systems-architecture.svg" alt="Systems architecture connecting data and evidence, quantitative risk, execution and settlement with cryptographic, FPGA, cybersecurity and intelligence control layers" width="100%" />
+<img src="assets/research-mandate.svg" width="100%" alt="Research mandate: finance and quantitative systems, crypto and blockchain infrastructure, with FPGA, cyber and intelligence assurance layers" />
 
 </div>
 
@@ -262,10 +263,10 @@ The work should be understandable from the quantitative model to the instruction
 
 ---
 
-### UNDERSTAND THE SYSTEM. DEFINE THE RISK. VERIFY THE RESULT.
+**UNDERSTAND THE SYSTEM. DEFINE THE RISK. VERIFY THE RESULT.**
 
-<a href="https://github.com/julianvanceblackwood"><img src="assets/github-link.svg" alt="GitHub profile" width="175" /></a>&nbsp;&nbsp;<a href="mailto:julianvanceblackwood@gmail.com"><img src="assets/contact-link.svg" alt="Email contact" width="175" /></a>
+<sub>Independent Research & Systems Engineering</sub>
 
-<sub>JULIAN VANCE BLACKWOOD / INDEPENDENT RESEARCH AND SYSTEMS ENGINEERING</sub>
+[GitHub](https://github.com/julianvanceblackwood) &nbsp;·&nbsp; [Direct Contact](mailto:julianvanceblackwood@gmail.com)
 
 </div>
