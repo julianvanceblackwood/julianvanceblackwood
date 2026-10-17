@@ -1,17 +1,12 @@
 <div align="center">
 
-<img src="assets/identity-hero.svg" width="100%" alt="Julian Vance Blackwood: independent research in quantitative finance, crypto, blockchain, FPGA, cybersecurity and intelligence" />
+<img src="assets/profile-banner.svg" width="100%" alt="Julian Vance Blackwood. Independent Research and Systems Engineering." />
 
 <br>
 
-<a href="https://github.com/julianvanceblackwood"><img src="assets/github-action.svg" width="255" alt="Open GitHub source and research" /></a>&nbsp;&nbsp;<a href="mailto:julianvanceblackwood@gmail.com"><img src="assets/contact-action.svg" width="255" alt="Email for direct inquiries" /></a>
+**Quantitative Finance · Crypto &amp; Blockchain · FPGA · Cybersecurity · Intelligence**
 
-<br>
-<br>
-
-**FINANCE & QUANTITATIVE SYSTEMS  ·  CRYPTO  ·  BLOCKCHAIN  ·  FPGA  ·  CYBERSECURITY  ·  INTELLIGENCE**
-
-Independent research in capital, secure infrastructure, and evidence-based decisions.
+[GitHub Profile](https://github.com/julianvanceblackwood) &nbsp;·&nbsp; [Contact](mailto:julianvanceblackwood@gmail.com)
 
 </div>
 
@@ -27,11 +22,6 @@ The priority is financial and quantitative engineering, followed by crypto and b
 
 **Understand the system. Define the risk. Verify the result.**
 
-<div align="center">
-
-<img src="assets/research-mandate.svg" width="100%" alt="Research mandate: finance and quantitative systems, crypto and blockchain infrastructure, with FPGA, cyber and intelligence assurance layers" />
-
-</div>
 
 ## 01 / Finance and Quantitative Systems
 
