@@ -1,18 +1,11 @@
 <div align="center">
 
-<img src="assets/profile-banner.svg" alt="Julian Vance Blackwood | Capital, Risk, Trust and Execution" width="100%" />
+<img src="assets/profile-banner.svg" alt="Julian Vance Blackwood. Capital, risk, trust and execution." width="100%" />
 
 <br>
 
-<a href="https://github.com/julianvanceblackwood">
-  <img src="https://img.shields.io/badge/GITHUB-PROFILE-20313D?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;labelColor=0B1119" alt="GitHub profile" height="32" />
-</a>
-&nbsp;
-<a href="mailto:julianvanceblackwood@gmail.com">
-  <img src="https://img.shields.io/badge/CONTACT-EMAIL-20313D?style=for-the-badge&amp;logo=gmail&amp;logoColor=white&amp;labelColor=0B1119" alt="Contact by email" height="32" />
-</a>
+<a href="https://github.com/julianvanceblackwood"><img src="assets/github-link.svg" alt="GitHub engineering research" width="210" /></a>&nbsp;&nbsp;<a href="mailto:julianvanceblackwood@gmail.com"><img src="assets/contact-link.svg" alt="Email contact" width="210" /></a>
 
-<br>
 <br>
 
 **QUANTITATIVE FINANCE  ·  CRYPTO  ·  BLOCKCHAIN  ·  FPGA  ·  CYBERSECURITY  ·  INTELLIGENCE**
@@ -32,6 +25,12 @@ My work is oriented toward the boundaries where research becomes execution, data
 The priority is financial and quantitative engineering, followed by crypto and blockchain infrastructure. FPGA, cybersecurity and intelligence extend the same discipline into deterministic computation, protected state and operational judgment.
 
 **Understand the system. Define the risk. Verify the result.**
+
+<div align="center">
+
+<img src="assets/systems-architecture.svg" alt="Systems architecture connecting data and evidence, quantitative risk, execution and settlement with cryptographic, FPGA, cybersecurity and intelligence control layers" width="100%" />
+
+</div>
 
 ## 01 / Finance and Quantitative Systems
 
@@ -265,13 +264,7 @@ The work should be understandable from the quantitative model to the instruction
 
 ### UNDERSTAND THE SYSTEM. DEFINE THE RISK. VERIFY THE RESULT.
 
-<a href="https://github.com/julianvanceblackwood">
-  <img src="https://img.shields.io/badge/GITHUB-PROFILE-20313D?style=flat-square&amp;logo=github&amp;logoColor=white&amp;labelColor=0B1119" alt="GitHub" />
-</a>
-&nbsp;
-<a href="mailto:julianvanceblackwood@gmail.com">
-  <img src="https://img.shields.io/badge/CONTACT-EMAIL-20313D?style=flat-square&amp;logo=gmail&amp;logoColor=white&amp;labelColor=0B1119" alt="Email" />
-</a>
+<a href="https://github.com/julianvanceblackwood"><img src="assets/github-link.svg" alt="GitHub profile" width="175" /></a>&nbsp;&nbsp;<a href="mailto:julianvanceblackwood@gmail.com"><img src="assets/contact-link.svg" alt="Email contact" width="175" /></a>
 
 <sub>JULIAN VANCE BLACKWOOD / INDEPENDENT RESEARCH AND SYSTEMS ENGINEERING</sub>
 
