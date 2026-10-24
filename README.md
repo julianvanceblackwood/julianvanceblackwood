@@ -2,7 +2,7 @@
 
 <img src="assets/identity-header.svg" width="100%" alt="Julian Vance Blackwood, independent research and systems engineering" />
 
-[**ORCID**](https://orcid.org/0009-0003-6812-8406) &nbsp;&nbsp;·&nbsp;&nbsp; [**Research correspondence**](mailto:julianvanceblackwood@gmail.com) &nbsp;&nbsp;·&nbsp;&nbsp; [**Selected work**](docs/RESEARCH_SHOWCASE.md)
+[**ORCID**](https://orcid.org/0009-0003-6812-8406) &nbsp;&nbsp;·&nbsp;&nbsp; [**Research correspondence**](mailto:julianvanceblackwood@gmail.com)
 
 </div>
 
@@ -18,7 +18,7 @@ I develop research implementations and controlled experiments, with an emphasis 
 | :--- | :--- |
 | **Quantitative finance** — market structure, pricing, portfolio analytics and risk. | **Blockchain engineering** — transaction validation, consensus, ordering and finality. |
 | **Digital assets and cryptography** — custody, settlement, signatures and key boundaries. | **FPGA and systems** — C/C++, Linux, SystemVerilog, digital logic and deterministic execution. |
-| **Financial systems research** — evidence quality, source dependencies and decision controls. | **Cybersecurity and intelligence** — defensive analysis, provenance, forensics and uncertainty. |
+| **Cybersecurity** — defensive engineering, networking, program analysis and digital forensics. | **Intelligence systems** — provenance, source reliability, uncertainty and decision support. |
 
 ## Engineering approach
 
@@ -30,4 +30,4 @@ The distinction between an idea, a research prototype and a validated system mat
 
 I welcome technical discussion, independent review and focused research collaboration in financial computation, blockchain protocols, secure infrastructure and evidence-based decision systems.
 
-[**Research portfolio**](docs/RESEARCH_SHOWCASE.md) &nbsp;·&nbsp; [**ORCID record**](https://orcid.org/0009-0003-6812-8406) &nbsp;·&nbsp; [**Email**](mailto:julianvanceblackwood@gmail.com)
+[**Explore the research portfolio**](docs/RESEARCH_SHOWCASE.md)
