@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="90" viewBox="0 0 500 90" role="img" aria-label="Research correspondence by email julianvanceblackwood at gmail dot com">
+<rect width="500" height="90" rx="4" fill="#161719"/>
+<rect x="0.5" y="0.5" width="499" height="89" rx="4" fill="none" stroke="#494C4F"/>
+<rect x="22" y="27" width="42" height="36" rx="2" fill="none" stroke="#C8CBCC" stroke-width="1.5"/>
+<path d="M23 29l20 17 20-17" stroke="#C8CBCC" stroke-width="1.5" fill="none"/>
+<text x="82" y="29" fill="#A9AEAF" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="1.9">CONTACT</text>
+<text x="82" y="55" fill="#F2F3F1" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="600">Research correspondence</text>
+<text x="82" y="74" fill="#A9AEAF" font-family="Arial,Helvetica,sans-serif" font-size="15">julianvanceblackwood@gmail.com</text>
+<path d="M452 45h18m-7-7 7 7-7 7" fill="none" stroke="#D7D9D7" stroke-width="1.5" stroke-linecap="square"/>
+</svg>
