@@ -6,7 +6,7 @@
 
 **Quantitative Finance · Crypto &amp; Blockchain · FPGA · Cybersecurity · Intelligence**
 
-[GitHub Profile](https://github.com/julianvanceblackwood) &nbsp;·&nbsp; [Contact](mailto:julianvanceblackwood@gmail.com)
+[Research Atlas](docs/PROJECT_ATLAS.md) &nbsp;·&nbsp; [ORCID](https://orcid.org/0009-0003-6812-8406) &nbsp;·&nbsp; [Contact](mailto:julianvanceblackwood@gmail.com)
 
 </div>
 
