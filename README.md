@@ -25,7 +25,7 @@
 </tr>
 </table>
 
-[**Research atlas / independent verification routes**](docs/PROJECT_ATLAS.md) · [**Recorded AXOVAR demonstration**](https://github.com/julianvanceblackwood/AXOVAR#recorded-demonstration) · [**Contact**](mailto:julianvanceblackwood@gmail.com)
+[**Research atlas**](docs/PROJECT_ATLAS.md) · [**Technical collaboration and open review questions**](docs/EXTERNAL_COLLABORATION.md) · [**Recorded AXOVAR demo**](https://github.com/julianvanceblackwood/AXOVAR#recorded-demonstration) · [**Contact**](mailto:julianvanceblackwood@gmail.com)
 
 <details>
 <summary><strong>Visual research signal (animated conceptual model)</strong></summary>
