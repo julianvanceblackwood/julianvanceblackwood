@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1420" height="430" viewBox="0 0 1420 430" role="img" aria-label="Julian Vance Blackwood — Independent research in quantitative and secure systems">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2=".7"><stop stop-color="#0A0F15"/><stop offset=".54" stop-color="#101923"/><stop offset="1" stop-color="#0B121C"/></linearGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#F3E7CD"/><stop offset=".5" stop-color="#CDB080"/><stop offset="1" stop-color="#F6EFDD"/></linearGradient>
+  <linearGradient id="signal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#DCC393"/><stop offset="1" stop-color="#5B9BBC"/></linearGradient>
+  <radialGradient id="aura"><stop stop-color="#467D9C" stop-opacity=".22"/><stop offset="1" stop-color="#467D9C" stop-opacity="0"/></radialGradient>
+  <pattern id="matrix" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#8FA9B8" stroke-opacity=".09" stroke-width=".65"/></pattern>
+</defs>
+<rect width="1420" height="430" rx="8" fill="url(#bg)"/>
+<rect width="1420" height="430" fill="url(#matrix)"/>
+<rect x="19" y="19" width="1382" height="392" fill="none" stroke="#6C8595" stroke-opacity=".42"/>
+<path d="M20 20H94 M20 20V94 M1400 20H1326 M1400 20V94 M20 410H94 M20 410V336 M1400 410H1326 M1400 410V336" fill="none" stroke="#CBB48A" stroke-width="2" stroke-opacity=".88"/>
+<rect x="66" y="50" width="42" height="42" rx="2" fill="none" stroke="#D7BF92" stroke-opacity=".84"/>
+<text x="87" y="78" text-anchor="middle" font-family="Georgia,serif" font-size="24" fill="#F1E7D5">B</text>
+<text x="126" y="66" font-family="Arial,Helvetica,sans-serif" font-size="12.5" letter-spacing="3.6" fill="#B8C8D2">INDEPENDENT RESEARCH</text>
+<text x="126" y="85" font-family="Arial,Helvetica,sans-serif" font-size="10.5" letter-spacing="2.5" fill="#6FA1B6">COMPUTATION / SECURITY / INTELLIGENCE</text>
+<path d="M65 117H700" stroke="#678DA1" stroke-opacity=".55"/>
+<text x="63" y="204" font-family="Georgia,'Times New Roman',serif" font-size="67" letter-spacing="3" fill="#F4F0E9">JULIAN VANCE</text>
+<text x="63" y="286" font-family="Georgia,'Times New Roman',serif" font-size="82" letter-spacing="3" fill="url(#metal)">BLACKWOOD</text>
+<path d="M66 304H643" stroke="url(#signal)" stroke-width="2" stroke-opacity=".94"/>
+<text x="66" y="339" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="1.6" fill="#D3DFE6">QUANTITATIVE FINANCE  /  SECURE SYSTEMS</text>
+<text x="66" y="375" font-family="Arial,Helvetica,sans-serif" font-size="11.8" letter-spacing="2.0" fill="#92A8B8">STATE  ·  TIME  ·  TRUST  ·  EVIDENCE  ·  RISK</text>
+<path d="M754 45V384" stroke="#718DA2" stroke-opacity=".28"/>
+<circle cx="1091" cy="214" r="276" fill="url(#aura)"/>
+<circle cx="1091" cy="214" r="155" stroke="#45657A" stroke-opacity=".32" fill="none"/>
+<circle cx="1091" cy="214" r="127" stroke="#A3B8C2" stroke-opacity=".25" stroke-dasharray="3 11" fill="none"/>
+<circle cx="1091" cy="214" r="102" stroke="url(#signal)" stroke-opacity=".8" stroke-width="1.4" fill="none"/>
+<circle cx="1091" cy="214" r="73" stroke="#77A2B8" stroke-opacity=".36" fill="none"/>
+<circle cx="1091" cy="214" r="46" stroke="#D0BB8E" stroke-opacity=".78" fill="#0D1721"/>
+<circle cx="1091" cy="214" r="37" stroke="#D0BB8E" stroke-opacity=".25" fill="none"/>
+<path d="M936 214H1244 M1091 60V368" stroke="#92B4C7" stroke-opacity=".22"/>
+<path d="M979 104L1204 321 M983 324L1198 109" stroke="#658DA5" stroke-opacity=".31"/>
+<path d="M1091 111A103 103 0 0 1 1194 214 M1091 317A103 103 0 0 1 988 214" fill="none" stroke="#D9BC86" stroke-width="3" stroke-opacity=".9"/>
+<circle cx="991" cy="190" r="5" fill="#DECB9F"/>
+<circle cx="1191" cy="238" r="5" fill="#80BEDA"/>
+<circle cx="1063" cy="114" r="3" fill="#DECB9F"/>
+<circle cx="1120" cy="313" r="3" fill="#80BEDA"/>
+<text x="1091" y="209" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="1.5" fill="#F0EBDD">DECISION</text>
+<text x="1091" y="229" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" letter-spacing="2.5" fill="#D4BD91">BOUNDARY</text>
+<g font-family="Arial,Helvetica,sans-serif" font-size="10.5" letter-spacing="1.6" fill="#ADC5D2">
+<text x="830" y="77">MARKET DATA</text><text x="1288" y="75" text-anchor="end">TRUST</text>
+<text x="811" y="360">PROTOCOL STATE</text><text x="1355" y="361" text-anchor="end">VERIFICATION</text>
+</g>
+<path d="M861 88L979 148 M1277 85L1199 148 M896 345L990 278 M1261 344L1193 283" stroke="#8CAEBF" stroke-opacity=".36" stroke-width="1" fill="none"/>
+<text x="1091" y="392" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10.5" letter-spacing="2.5" fill="#7894A8">DESIGN FOR FAILURE. VERIFY WITH EVIDENCE.</text>
+</svg>
