@@ -1,16 +1,8 @@
 <div align="center">
 
-<img src="assets/identity-header.svg" width="100%" alt="Julian Vance Blackwood — independent research in quantitative finance, computational systems, security and intelligence." />
+<img src="assets/identity-header.svg" width="100%" alt="Julian Vance Blackwood — Independent Research and Systems Engineering." />
 
-<br />
-
-**FINANCIAL COMPUTATION** &nbsp;·&nbsp; **CRYPTOGRAPHIC SYSTEMS** &nbsp;·&nbsp; **SECURE INFRASTRUCTURE**
-
-<sub>Quantitative research &nbsp; / &nbsp; Digital assets &nbsp; / &nbsp; Blockchain &nbsp; / &nbsp; FPGA &nbsp; / &nbsp; Cybersecurity &nbsp; / &nbsp; Intelligence</sub>
-
-<br />
-
-[ORCID](https://orcid.org/0009-0003-6812-8406) &nbsp;·&nbsp; [Technical correspondence](mailto:julianvanceblackwood@gmail.com)
+[ORCID](https://orcid.org/0009-0003-6812-8406) &nbsp;·&nbsp; [Research correspondence](mailto:julianvanceblackwood@gmail.com)
 
 </div>
 

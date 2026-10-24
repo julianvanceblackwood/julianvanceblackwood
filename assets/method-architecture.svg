@@ -1,29 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1420" height="476" viewBox="0 0 1420 476" role="img" aria-label="Research method: establish source, reconstruct state, test models, constrain action, verify evidence">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0E151F"/><stop offset="1" stop-color="#141F2B"/></linearGradient><linearGradient id="top" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#C7AA7B"/><stop offset=".5" stop-color="#91B2C7"/><stop offset="1" stop-color="#D6BB88"/></linearGradient><pattern id="grid" width="27" height="27" patternUnits="userSpaceOnUse"><path d="M27 0H0V27" fill="none" stroke="#95AEBF" stroke-opacity=".075" stroke-width=".7"/></pattern></defs>
-<rect width="1420" height="476" rx="7" fill="url(#bg)"/><rect width="1420" height="476" fill="url(#grid)"/>
-<rect x="22" y="22" width="1376" height="432" fill="none" stroke="#6F8498" stroke-opacity=".4"/>
-<path d="M50 74H1370" stroke="url(#top)" stroke-opacity=".53"/>
-<text x="53" y="57" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="3" fill="#DEC8A1">THE ENGINEERING METHOD</text>
-<text x="1367" y="56" font-family="Arial,Helvetica,sans-serif" text-anchor="end" font-size="11.5" letter-spacing="2" fill="#8BA8BB">FROM ASSERTION TO DEFENSIBLE CONCLUSION</text>
-<g font-family="Arial,Helvetica,sans-serif">
-<rect x="48" y="129" width="244" height="195" rx="5" fill="#101C29" stroke="#A8997F" stroke-opacity=".72"/>
-<rect x="318" y="129" width="244" height="195" rx="5" fill="#101C29" stroke="#6D9FBD" stroke-opacity=".72"/>
-<rect x="588" y="129" width="244" height="195" rx="5" fill="#101C29" stroke="#A8997F" stroke-opacity=".72"/>
-<rect x="858" y="129" width="244" height="195" rx="5" fill="#101C29" stroke="#6D9FBD" stroke-opacity=".72"/>
-<rect x="1128" y="129" width="244" height="195" rx="5" fill="#101C29" stroke="#A8997F" stroke-opacity=".72"/>
-<g font-size="14" letter-spacing="1.5" fill="#D7BE91"><text x="72" y="160">01 / OBSERVE</text><text x="612" y="160">03 / MODEL</text><text x="1152" y="160">05 / REPRODUCE</text></g>
-<g font-size="14" letter-spacing="1.5" fill="#80B9D1"><text x="342" y="160">02 / RECONSTRUCT</text><text x="882" y="160">04 / CONSTRAIN</text></g>
-<g font-size="25" fill="#EEF3F6" font-weight="600"><text x="72" y="207">Source</text><text x="342" y="207">State &amp; time</text><text x="612" y="207">Inference</text><text x="882" y="207">Authority</text><text x="1152" y="207">Evidence</text></g>
-<g font-size="15.5" fill="#AEC2D1"><text x="72" y="246">Origin and integrity</text><text x="72" y="271">before interpretation</text><text x="342" y="246">Ordering, gaps and</text><text x="342" y="271">replayable transitions</text><text x="612" y="246">Models, assumptions</text><text x="612" y="271">and contrary cases</text><text x="882" y="246">Risk limits, permission</text><text x="882" y="271">and human review</text><text x="1152" y="246">Tests, receipts and</text><text x="1152" y="271">explicit limitations</text></g>
-</g>
-<g stroke="#BEAF95" fill="none" stroke-width="2"><path d="M293 226H315 M307 220L315 226L307 232"/><path d="M563 226H585 M577 220L585 226L577 232"/><path d="M833 226H855 M847 220L855 226L847 232"/><path d="M1103 226H1125 M1117 220L1125 226L1117 232"/></g>
-<path d="M1248 330V358H169V330" stroke="#81AEC5" stroke-dasharray="6 8" opacity=".64" fill="none" stroke-width="1.6"/>
-<circle cx="1248" cy="330" r="4" fill="#81AEC5"/><circle cx="169" cy="330" r="4" fill="#D9BE94"/>
-<text x="711" y="382" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="12.5" letter-spacing="2" fill="#96BACB">FEEDBACK / FALSIFICATION / RECOVERY</text>
-<path d="M50 403H1367" stroke="#86A2B6" opacity=".3"/>
-<text x="53" y="432" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="1.55" fill="#DFE7EA">OBSERVED</text>
-<text x="332" y="432" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="1.55" fill="#A7BCD0">ASSUMED</text>
-<text x="612" y="432" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="1.55" fill="#A7BCD0">INFERRED</text>
-<text x="891" y="432" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="1.55" fill="#A7BCD0">UNKNOWN</text>
-<text x="1364" y="432" font-family="Arial,Helvetica,sans-serif" text-anchor="end" font-size="11" letter-spacing="1.2" fill="#D0BB91">KEEP THE BOUNDARIES VISIBLE</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="258" viewBox="0 0 1400 258" role="img" aria-label="Research method, five stages from source evidence through state, inference, authority, and verification">
+  <rect width="1400" height="258" fill="#151618"/>
+  <g stroke="#55585B" stroke-width="1" fill="none">
+    <path d="M58 58H1342M58 217H1342"/>
+    <path d="M308 80V201M569 80V201M830 80V201M1091 80V201"/>
+  </g>
+  <text x="58" y="37" fill="#D7D7D4" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="2">WORKING METHOD</text>
+  <text x="1342" y="37" fill="#8F9395" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="1.4">EXPLICIT ASSUMPTIONS / REPRODUCIBLE RESULTS</text>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <g fill="#929698" font-size="13" letter-spacing="2">
+      <text x="60" y="104">01</text><text x="324" y="104">02</text><text x="585" y="104">03</text><text x="846" y="104">04</text><text x="1107" y="104">05</text>
+    </g>
+    <g fill="#F3F2EF" font-size="25" font-weight="600">
+      <text x="60" y="143">Source</text><text x="324" y="143">State</text><text x="585" y="143">Inference</text><text x="846" y="143">Authority</text><text x="1107" y="143">Evidence</text>
+    </g>
+    <g fill="#B9BBBC" font-size="15">
+      <text x="60" y="173">Origin &amp; integrity</text><text x="324" y="173">Order &amp; recovery</text><text x="585" y="173">Models &amp; limits</text><text x="846" y="173">Policy &amp; permission</text><text x="1107" y="173">Tests &amp; review</text>
+    </g>
+  </g>
+  <text x="59" y="243" fill="#AEB0B1" font-family="Arial,Helvetica,sans-serif" font-size="11.5" letter-spacing="1.6">OBSERVE → RECONSTRUCT → CHALLENGE → CONSTRAIN → REPRODUCE</text>
 </svg>
