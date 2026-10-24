@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/profile-banner.svg" width="100%" alt="Julian Vance Blackwood. Independent Research and Systems Engineering." />
+<img src="assets/research-hero.svg" width="100%" alt="Vance Blackwood research portfolio. A conceptual progression from research through modeling, systems engineering and assurance." />
 
 <br>
 
@@ -10,13 +10,34 @@
 
 </div>
 
-<p align="center">
-  <img src="assets/research-signal.gif" width="100%" alt="Animated monochrome schematic of information moving through independent research and verification gates. Illustration only, not live telemetry." />
-</p>
-
-<p align="center"><sub>RESEARCH SIGNAL / Conceptual visual only · Not live telemetry</sub></p>
-
 ## Selected Research Systems
+
+<p>Research systems at different stages of implementation. Each repository exposes its own architecture, evidence, test conditions and limitations.</p>
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/julianvanceblackwood/AXOVAR"><img src="https://raw.githubusercontent.com/julianvanceblackwood/AXOVAR/main/assets/research-hero.svg" width="100%" alt="AXOVAR quantitative finance research banner"/></a><br/><strong>AXOVAR / QUANT &amp; MARKET INTEGRITY</strong><br/><sub>Executable C++20 synthetic-market research and recorded dashboard replay. No real trading.</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/julianvanceblackwood/KORDAXIS"><img src="https://raw.githubusercontent.com/julianvanceblackwood/KORDAXIS/main/assets/research-hero.svg" width="100%" alt="KORDAXIS evidence-native cyber research banner"/></a><br/><strong>KORDAXIS / DEFENSIVE CYBER</strong><br/><sub>Implemented raw-evidence persistence and integrity checks; reasoning stages remain research.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/julianvanceblackwood/ELENCHION"><img src="https://raw.githubusercontent.com/julianvanceblackwood/ELENCHION/main/assets/research-hero.svg" width="100%" alt="ELENCHION execution intelligence research banner"/></a><br/><strong>ELENCHION / EXECUTION INTELLIGENCE</strong><br/><sub>Phase Zero research thesis and falsifiable model; no production analysis engine claimed.</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/julianvanceblackwood/TEICHION"><img src="https://raw.githubusercontent.com/julianvanceblackwood/TEICHION/main/assets/research-hero.svg" width="100%" alt="TEICHION hardware assurance research banner"/></a><br/><strong>TEICHION / HARDWARE ASSURANCE</strong><br/><sub>RTL chain-state controller and canonical record references; hardware cryptographic sealing is not yet implemented.</sub></td>
+</tr>
+</table>
+
+[**Research atlas / independent verification routes**](docs/PROJECT_ATLAS.md) · [**Recorded AXOVAR demonstration**](https://github.com/julianvanceblackwood/AXOVAR#recorded-demonstration) · [**Contact**](mailto:julianvanceblackwood@gmail.com)
+
+<details>
+<summary><strong>Visual research signal (animated conceptual model)</strong></summary>
+
+<img src="assets/research-signal.gif" width="100%" alt="Conceptual animation of independent research and verification phases; this is not live telemetry." />
+
+*Conceptual model only. It is not a recorded product or benchmark.*
+
+</details>
+
+<details>
+<summary><strong>Compare research scope and implementation evidence</strong></summary>
 
 Independent projects, distinct technical boundaries. Implementation status is reported conservatively; research aims are not presented as deployed capabilities.
 
@@ -28,6 +49,8 @@ Independent projects, distinct technical boundaries. Implementation status is re
 | **[TEICHION](https://github.com/julianvanceblackwood/TEICHION)** | What ordering properties can be defended at a hardware record-acceptance boundary? | RTL chain-state tests, canonical-record reference vectors, and verification guidance |
 
 [**Research atlas: scope, evidence and review routes**](docs/PROJECT_ATLAS.md) · [**Independent technical collaboration**](#external-review--collaboration)
+
+</details>
 
 <details>
 <summary><strong>View recorded AXOVAR Generation Zero dashboard replay</strong></summary>
