@@ -10,6 +10,38 @@
 
 </div>
 
+<p align="center">
+  <img src="assets/research-signal.gif" width="100%" alt="Animated monochrome schematic of information moving through independent research and verification gates. Illustration only, not live telemetry." />
+</p>
+
+<p align="center"><sub>RESEARCH SIGNAL / Conceptual visual only · Not live telemetry</sub></p>
+
+## Selected Research Systems
+
+Independent projects, distinct technical boundaries. Implementation status is reported conservatively; research aims are not presented as deployed capabilities.
+
+| Project | Research question | Verifiable entry point |
+| :--- | :--- | :--- |
+| **[AXOVAR](https://github.com/julianvanceblackwood/AXOVAR)** | Can a financial decision remain evidence-constrained when market observations degrade? | Executable C++20 synthetic-market demonstrator and recorded dashboard replay |
+| **[KORDAXIS](https://github.com/julianvanceblackwood/KORDAXIS)** | Can defensive decisions preserve provenance under incomplete and conflicting telemetry? | Raw-evidence persistence boundary, PostgreSQL integration tests, and canonical-observation research gate |
+| **[ELENCHION](https://github.com/julianvanceblackwood/ELENCHION)** | What can be justified about execution when sensors and timelines are unreliable? | Phase Zero thesis, falsifiable research questions, and experimental design |
+| **[TEICHION](https://github.com/julianvanceblackwood/TEICHION)** | What ordering properties can be defended at a hardware record-acceptance boundary? | RTL chain-state tests, canonical-record reference vectors, and verification guidance |
+
+[**Research atlas: scope, evidence and review routes**](docs/PROJECT_ATLAS.md) · [**Independent technical collaboration**](#external-review--collaboration)
+
+<details>
+<summary><strong>View recorded AXOVAR Generation Zero dashboard replay</strong></summary>
+
+<p align="center">
+  <a href="https://github.com/julianvanceblackwood/AXOVAR">
+    <img src="https://raw.githubusercontent.com/julianvanceblackwood/AXOVAR/main/assets/dashboard-replay.gif" width="88%" alt="Recorded AXOVAR Generation Zero research dashboard replay from synthetic scenarios; not a live financial market or trading environment." />
+  </a>
+</p>
+
+The animation is a recorded replay of the compiled research engine using synthetic fixtures. It does not show real exchange connectivity, real orders, production feeds or a deployed trading service.
+
+</details>
+
 ---
 
 ## Perspective
