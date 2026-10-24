@@ -34,11 +34,11 @@ The aim is not to make a system appear more certain. It is to make its behavior,
 
 <sub>01 / PRIMARY FOCUS</sub>
 
-### Finance & Quantitative Systems
+<h3>Finance &amp; Quantitative Systems</h3>
 
-Market structure, pricing assumptions, probability and statistics, research validation, portfolio exposure, execution mechanics and risk controls.
+<p>Market structure, pricing assumptions, probability and statistics, research validation, portfolio exposure, execution mechanics and risk controls.</p>
 
-I am interested in the complete path from market observation to a defensible financial action: the data, model, order state, accounting and operational limits that stand between a backtest and reality.
+<p>I am interested in the complete path from market observation to a defensible financial action: the data, model, order state, accounting and operational limits that stand between a backtest and reality.</p>
 
 <sub>MARKET MICROSTRUCTURE · MODEL RISK · C++ · PYTHON</sub>
 
@@ -47,11 +47,11 @@ I am interested in the complete path from market observation to a defensible fin
 
 <sub>02 / CAPITAL & PROTOCOLS</sub>
 
-### Crypto & Digital Assets
+<h3>Crypto &amp; Digital Assets</h3>
 
-Custody, authorization, transaction intent, key management, market integrity, reconciliation and settlement uncertainty.
+<p>Custody, authorization, transaction intent, key management, market integrity, reconciliation and settlement uncertainty.</p>
 
-Cryptographic validity is only part of the problem. I study how permission, ownership, economic exposure and recovery interact with the underlying software and operational controls.
+<p>Cryptographic validity is only part of the problem. I study how permission, ownership, economic exposure and recovery interact with the underlying software and operational controls.</p>
 
 <sub>CUSTODY · CRYPTOGRAPHY · SETTLEMENT · RISK</sub>
 
@@ -62,11 +62,11 @@ Cryptographic validity is only part of the problem. I study how permission, owne
 
 <sub>03 / DISTRIBUTED STATE</sub>
 
-### Blockchain Engineering
+<h3>Blockchain Engineering</h3>
 
-Consensus assumptions, transaction ordering, deterministic validation, chain reorganizations, bridge dependencies and finality.
+<p>Consensus assumptions, transaction ordering, deterministic validation, chain reorganizations, bridge dependencies and finality.</p>
 
-A transaction being broadcast, signed or accepted by an API does not establish every property a system may need. Protocol guarantees must be separated from assumptions inherited from networks and counterparties.
+<p>A transaction being broadcast, signed or accepted by an API does not establish every property a system may need. Protocol guarantees must be separated from assumptions inherited from networks and counterparties.</p>
 
 <sub>STATE MACHINES · CONSENSUS · REPLAY · PROTOCOLS</sub>
 
@@ -75,11 +75,11 @@ A transaction being broadcast, signed or accepted by an API does not establish e
 
 <sub>04 / BELOW SOFTWARE</sub>
 
-### FPGA & Hardware Assurance
+<h3>FPGA &amp; Hardware Assurance</h3>
 
-RTL design, bounded-latency computation, fixed-width arithmetic, deterministic sequencing, digital interfaces and hardware/software trust boundaries.
+<p>RTL design, bounded-latency computation, fixed-width arithmetic, deterministic sequencing, digital interfaces and hardware/software trust boundaries.</p>
 
-I examine where hardware meaningfully improves timing, isolation, integrity or reliability—and where simulation must not be confused with physical security or a deployed device.
+<p>I examine where hardware meaningfully improves timing, isolation, integrity or reliability—and where simulation must not be confused with physical security or a deployed device.</p>
 
 <sub>SYSTEMVERILOG · VERIFICATION · TIMING · DIGITAL LOGIC</sub>
 
@@ -90,11 +90,11 @@ I examine where hardware meaningfully improves timing, isolation, integrity or r
 
 <sub>05 / ADVERSARIAL CONDITIONS</sub>
 
-### Cybersecurity & Secure Systems
+<h3>Cybersecurity &amp; Secure Systems</h3>
 
-Operating systems, networking, secure architecture, reverse engineering, digital forensics, threat modeling and evidence preservation.
+<p>Operating systems, networking, secure architecture, reverse engineering, digital forensics, threat modeling and evidence preservation.</p>
 
-The emphasis is defensive and authorized work: understanding who can act, what they can affect, which records can be trusted and what a system can recover after compromise.
+<p>The emphasis is defensive and authorized work: understanding who can act, what they can affect, which records can be trusted and what a system can recover after compromise.</p>
 
 <sub>DEFENSIVE SECURITY · FORENSICS · SYSTEMS · TRUST</sub>
 
@@ -103,11 +103,11 @@ The emphasis is defensive and authorized work: understanding who can act, what t
 
 <sub>06 / JUDGMENT UNDER UNCERTAINTY</sub>
 
-### Intelligence & Decision Systems
+<h3>Intelligence &amp; Decision Systems</h3>
 
-Source provenance, temporal reconstruction, entity relationships, conflicting hypotheses, observable gaps, consequence analysis and human accountability.
+<p>Source provenance, temporal reconstruction, entity relationships, conflicting hypotheses, observable gaps, consequence analysis and human accountability.</p>
 
-An authentic record can still be wrong. Multiple agreeing sources may share a dependency. Analytical confidence must never silently become authority to intervene.
+<p>An authentic record can still be wrong. Multiple agreeing sources may share a dependency. Analytical confidence must never silently become authority to intervene.</p>
 
 <sub>PROVENANCE · OBSERVABILITY · UNCERTAINTY · REVIEW</sub>
 
