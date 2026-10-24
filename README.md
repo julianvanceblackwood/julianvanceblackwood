@@ -241,6 +241,14 @@ I prefer small, consequential engineering changes over activity for its own sake
 
 Correctness precedes optimization. Risk assumptions are documented before results are interpreted. Security boundaries are explicit. Research findings should be reproducible by another engineer. Work is evaluated by what can be demonstrated, not by the number of tools used or commits produced.
 
+## External Review & Collaboration
+
+Public research is presented with explicit implementation boundaries, reproducible evidence and documented limitations. I welcome independent replication attempts, technical counterexamples, failure-case reviews and focused research discussions where they advance the underlying work.
+
+Project-specific evaluation scope belongs in the individual repositories. Technical feedback should identify the relevant revision, reproducible observation and the claim under examination. Security-sensitive findings should follow the repository's private disclosure process rather than public issues.
+
+Research collaboration, grant-supported work and potential commercial applications are considered separately. Publishing research publicly does not imply production readiness, institutional affiliation or a grant of commercial reuse rights. For a private technical inquiry, use [direct contact](mailto:julianvanceblackwood@gmail.com).
+
 ## Direction
 
 My long-term focus is the intersection of financial computation, digital asset infrastructure, protocol engineering, hardware assurance, cybersecurity and intelligence.
