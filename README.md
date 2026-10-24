@@ -1,26 +1,33 @@
-# Julian Vance Blackwood
+<div align="center">
 
-Independent research and systems engineering.
+<img src="assets/identity-header.svg" width="100%" alt="Julian Vance Blackwood, independent research and systems engineering" />
 
-I work across quantitative finance, software and hardware systems, with an interest in how information is verified, decisions are made and failures are handled.
+[**ORCID**](https://orcid.org/0009-0003-6812-8406) &nbsp;&nbsp;·&nbsp;&nbsp; [**Research correspondence**](mailto:julianvanceblackwood@gmail.com)
 
-[ORCID](https://orcid.org/0009-0003-6812-8406) · [Email](mailto:julianvanceblackwood@gmail.com)
+</div>
 
-## Research interests
+## About
 
-- **Quantitative finance** — market structure, financial modeling and risk.
-- **Blockchain and digital assets** — protocols, custody, transaction validation and settlement.
-- **Cryptography** — signatures, key management, data integrity and secure interfaces.
-- **FPGA and hardware** — digital logic, RTL, deterministic systems and verification.
-- **Cybersecurity** — defensive engineering, networking and digital forensics.
-- **Intelligence systems** — provenance, uncertainty and evidence-based analysis.
+My work sits at the intersection of quantitative finance, blockchain infrastructure and secure systems engineering. I am interested in the details that determine whether a system can be trusted: the quality of its inputs, the way it maintains state, and the conditions under which it is permitted to act.
 
-## Engineering
+I develop research implementations and controlled experiments, with an emphasis on mathematical reasoning, clear engineering boundaries and reproducible results.
 
-My work draws on C, C++, Python, Linux and SystemVerilog. I prefer clear specifications, reference implementations and reproducible tests. The goal is to understand a system's assumptions and limitations before making stronger claims about its reliability.
+## Research focus
 
-## Collaboration
+| Finance and digital infrastructure | Systems and assurance |
+| :--- | :--- |
+| **Quantitative finance** — market structure, pricing, portfolio analytics and risk. | **Blockchain engineering** — transaction validation, consensus, ordering and finality. |
+| **Digital assets and cryptography** — custody, settlement, signatures and key boundaries. | **FPGA and systems** — C/C++, Linux, SystemVerilog, digital logic and deterministic execution. |
+| **Cybersecurity** — defensive engineering, networking, program analysis and digital forensics. | **Intelligence systems** — provenance, source reliability, uncertainty and decision support. |
 
-I welcome focused technical discussion and independent research review. Projects may be at different stages of development; publicly available code should not be taken as evidence of production readiness or institutional affiliation.
+## Engineering approach
 
-For research inquiries, please use the email address above.
+I favor reference implementations over broad claims, and tests that make incorrect assumptions visible. My work typically moves from a defined problem and a small verifiable model to failure-case testing, measurement and documentation.
+
+The distinction between an idea, a research prototype and a validated system matters. I try to keep that distinction clear in what I publish.
+
+## Research and collaboration
+
+I welcome technical discussion, independent review and focused research collaboration in financial computation, blockchain protocols, secure infrastructure and evidence-based decision systems.
+
+[**Explore the research portfolio**](docs/RESEARCH_SHOWCASE.md)
