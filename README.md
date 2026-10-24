@@ -1,77 +1,26 @@
-<div align="center">
+# Julian Vance Blackwood
 
-<img src="assets/identity-header.svg" width="100%" alt="Julian Vance Blackwood — independent research and systems engineering across quantitative finance, blockchain, cryptography, hardware and security." />
+Independent research and systems engineering.
 
-<p>
-  <a href="https://orcid.org/0009-0003-6812-8406"><img src="assets/contact-orcid.svg" width="46%" alt="ORCID — researcher identifier 0009-0003-6812-8406" /></a>
-  &nbsp;
-  <a href="mailto:julianvanceblackwood@gmail.com"><img src="assets/contact-email.svg" width="46%" alt="Research correspondence — julianvanceblackwood@gmail.com" /></a>
-</p>
+I work across quantitative finance, software and hardware systems, with an interest in how information is verified, decisions are made and failures are handled.
 
-</div>
+[ORCID](https://orcid.org/0009-0003-6812-8406) · [Email](mailto:julianvanceblackwood@gmail.com)
 
-## Profile
+## Research interests
 
-I work across quantitative finance, blockchain infrastructure, digital assets, cryptographic systems, hardware assurance, cybersecurity and intelligence engineering.
+- **Quantitative finance** — market structure, financial modeling and risk.
+- **Blockchain and digital assets** — protocols, custody, transaction validation and settlement.
+- **Cryptography** — signatures, key management, data integrity and secure interfaces.
+- **FPGA and hardware** — digital logic, RTL, deterministic systems and verification.
+- **Cybersecurity** — defensive engineering, networking and digital forensics.
+- **Intelligence systems** — provenance, uncertainty and evidence-based analysis.
 
-My research is concerned with how systems represent state, handle unreliable evidence, enforce authority and remain explainable under failure. I use reference implementations, controlled experiments and reproducible tests to distinguish what a design intends from what it actually demonstrates.
+## Engineering
 
-## Fields of work
+My work draws on C, C++, Python, Linux and SystemVerilog. I prefer clear specifications, reference implementations and reproducible tests. The goal is to understand a system's assumptions and limitations before making stronger claims about its reliability.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3>Quantitative finance</h3>
-<p>Market microstructure, financial modeling, portfolio risk, numerical methods and decision controls.</p>
-</td>
-<td width="50%" valign="top">
-<h3>Blockchain engineering</h3>
-<p>Consensus, deterministic validation, transaction ordering, finality and distributed-state failure modes.</p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3>Cryptography and digital assets</h3>
-<p>Custody boundaries, authorization, settlement, serialization, signatures and key-management assumptions.</p>
-</td>
-<td width="50%" valign="top">
-<h3>FPGA and hardware systems</h3>
-<p>RTL, fixed-width computation, state machines, sequencing and hardware/software trust boundaries.</p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3>Cybersecurity</h3>
-<p>Defensive security, networking, operating systems, threat modeling, forensics and evidence integrity.</p>
-</td>
-<td width="50%" valign="top">
-<h3>Intelligence and decision systems</h3>
-<p>Source provenance, temporal reconstruction, competing hypotheses, uncertainty and accountable decisions.</p>
-</td>
-</tr>
-</table>
+## Collaboration
 
-## Engineering approach
+I welcome focused technical discussion and independent research review. Projects may be at different stages of development; publicly available code should not be taken as evidence of production readiness or institutional affiliation.
 
-I start by defining the trust boundary and the assumptions that can fail. I then build inspectable reference behavior, challenge it with negative cases, and record the conditions under which a result is reproducible.
-
-<details>
-<summary>Research workflow</summary>
-
-<img src="assets/method-architecture.svg" width="100%" alt="Five-stage research workflow: source, state, inference, authority and evidence." />
-
-</details>
-
-My working tools include **C, C++, Python, Linux, SystemVerilog**, numerical computing, network analysis and protocol verification. These are areas of ongoing engineering work and study, not a claim of equal expertise across every field.
-
-## Research and correspondence
-
-I publish work at different stages of maturity, from research hypotheses to tested implementations. Technical discussion is most useful when it identifies a specific assumption, a reproducible counterexample or a measurable engineering constraint.
-
-For research, technical review or a focused collaboration proposal, use the correspondence link above. Public research material does not imply production readiness, institutional affiliation or reuse rights beyond the applicable repository license.
-
----
-
-<div align="center">
-<sub>JULIAN VANCE BLACKWOOD · INDEPENDENT RESEARCH AND SYSTEMS ENGINEERING</sub>
-</div>
+For research inquiries, please use the email address above.
