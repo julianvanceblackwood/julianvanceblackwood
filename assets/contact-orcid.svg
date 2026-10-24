@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="90" viewBox="0 0 500 90" role="img" aria-label="ORCID researcher identifier 0009-0003-6812-8406">
+<rect width="500" height="90" rx="4" fill="#161719"/>
+<rect x="0.5" y="0.5" width="499" height="89" rx="4" fill="none" stroke="#494C4F"/>
+<circle cx="44" cy="45" r="22" fill="none" stroke="#C8CBCC" stroke-width="1.5"/>
+<text x="44" y="51" text-anchor="middle" fill="#ECEDEB" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="18">iD</text>
+<text x="82" y="29" fill="#A9AEAF" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="1.9">RESEARCHER IDENTIFIER</text>
+<text x="82" y="55" fill="#F2F3F1" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="600">ORCID</text>
+<text x="82" y="73" fill="#A9AEAF" font-family="Arial,Helvetica,sans-serif" font-size="12">0009-0003-6812-8406</text>
+<path d="M452 45h18m-7-7 7 7-7 7" fill="none" stroke="#D7D9D7" stroke-width="1.5" stroke-linecap="square"/>
+</svg>
